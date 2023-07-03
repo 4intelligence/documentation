@@ -1,4 +1,4 @@
-export const menu = [
+[
   {
     name: "Getting Started",
     path: "getting-started",
