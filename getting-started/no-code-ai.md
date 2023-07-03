@@ -8,4 +8,4 @@ As the it suggests, No-Code AI refers to the effective use of machine learning (
 
 Traditional ML involves multiple processes starting from collecting your data, cleaning and structuring the data, training and building models to getting prediction results. The image below captures the working of a traditional ML model building
 
-![image](https://github.com/NathalyaStefhany/poc-documentation/assets/47153733/2b214946-637a-4ad1-87d1-b04cbe827ed3)
+![image]([https://github.com/NathalyaStefhany/poc-documentation/assets/47153733/2b214946-637a-4ad1-87d1-b04cbe827ed3](https://qavalidation.com/wp-content/uploads/2018/07/Git-PUSH-pULL-1280x640.png)https://qavalidation.com/wp-content/uploads/2018/07/Git-PUSH-pULL-1280x640.png)
