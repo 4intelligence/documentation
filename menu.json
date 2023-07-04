@@ -9,6 +9,16 @@
           "path": "no-code-ai.md"
         }
       ]
+    }, 
+    {
+      "name": "Time Series",
+      "path": "time-series",
+      "submenu": [
+        {
+          "name": "Modeling types",
+          "path": "modeling.md"
+        }
+      ]
     }
   ]
 }
