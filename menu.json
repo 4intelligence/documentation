@@ -31,8 +31,8 @@
         "en-us": "Time Series"
       },
       "description": {
-        "pt-br": "Comece sua jornada",
-        "en-us": "Starting your journey"
+        "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+        "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
       },
       "path": "time-series",
       "icon": "chart-line",
