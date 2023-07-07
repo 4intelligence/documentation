@@ -1,23 +1,35 @@
 {
-  "menus": [
+  "menu": [
     {
-      "name": "Getting Started",
+      "name": {
+        "pt": "Getting Started",
+        "en": "Getting Started"
+      },
       "path": "getting-started",
       "icon": "book-bookmark",
       "submenu": [
         {
-          "name": "What is No-Code AI?",
+          "name": {
+            "pt": "What is No-Code AI?",
+            "en": "What is No-Code AI?"
+          },
           "path": "no-code-ai.md"
         }
       ]
-    }, 
+    },
     {
-      "name": "Time Series",
+      "name": {
+        "pt": "Time Series",
+        "en": "Time Series"
+      },
       "path": "time-series",
       "icon": "chart-line",
       "submenu": [
         {
-          "name": "Modeling types",
+          "name": {
+            "pt": "Tipos de Modelagem",
+            "en": "Modeling Types"
+          },
           "path": "modeling.md"
         }
       ]
