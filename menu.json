@@ -5,6 +5,10 @@
         "pt": "Getting Started",
         "en": "Getting Started"
       },
+      "description": {
+        "pt": "Comece sua jornada",
+        "en": "Starting your journey"
+      },
       "path": "getting-started",
       "icon": "book-bookmark",
       "submenu": [
@@ -12,6 +16,10 @@
           "name": {
             "pt": "What is No-Code AI?",
             "en": "What is No-Code AI?"
+          },
+          "description": {
+            "pt": "Comece sua jornada",
+            "en": "Starting your journey"
           },
           "path": "no-code-ai.md"
         }
@@ -22,6 +30,10 @@
         "pt": "Time Series",
         "en": "Time Series"
       },
+      "description": {
+        "pt": "Comece sua jornada",
+        "en": "Starting your journey"
+      },
       "path": "time-series",
       "icon": "chart-line",
       "submenu": [
@@ -29,6 +41,10 @@
           "name": {
             "pt": "Tipos de Modelagem",
             "en": "Modeling Types"
+          },
+          "description": {
+            "pt": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+            "en": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
           },
           "path": "modeling.md"
         }
