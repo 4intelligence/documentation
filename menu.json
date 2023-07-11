@@ -9,21 +9,8 @@
         "pt-br": "Comece sua jornada",
         "en-us": "Starting your journey"
       },
-      "path": "getting-started",
-      "icon": "book-bookmark",
-      "submenu": [
-        {
-          "name": {
-            "pt-br": "What is No-Code AI?",
-            "en-us": "What is No-Code AI?"
-          },
-          "description": {
-            "pt-br": "Comece sua jornada",
-            "en-us": "Starting your journey"
-          },
-          "path": "no-code-ai.md"
-        }
-      ]
+      "path": "getting-started.md",
+      "icon": "book-bookmark"
     },
     {
       "name": {
