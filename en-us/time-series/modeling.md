@@ -10,7 +10,7 @@ in which, p is the order of the AR part, q is the order of the MA part, d is the
 
 To perform the estimation and forecast, FaaS applies regression model with ARMA errors which estimates the two equations: 
 
-* add formula*
+*add formula*
 
 In the first equation, it estimates the exogenous variables parameters (impacts) and, in the second one, it controls the autocorrelation of the residuals, that may harm the estimation of the standard errors of the parameters. Both methods, (ARIMA and regression with ARMA errors, are similar and there is no difference in their forecasting ability, but the latter has the advantage of keeping the interpretation of the estimated parameters like in ordinary (non-dynamic) regressions. 
 
@@ -87,15 +87,15 @@ Main idea: Combines 2 and 3.
 
 There currently are three distinct types of elementary models, the STL, Arima model with seasonal additive indicator variables (ARIMA_SEASD) and Seasonal Arima model (ARIMA_SEASM), which treats the seasonality in a multiplicative way. Elementary models receive such name because they only include information about the response variable itself, without the inclusion of any explanatory variables, except for those that account for seasonality or outlier observations.  
 
-ARIMA_SEASD 
+### ARIMA_SEASD 
 
 The Arima models with additive seasonal and outlier indicator variables have the same structure as described in the Arima section, where the indicator variables are included in the model as explanatory variables. The seasonal indicator variables are included considering the data frequency, for example, for monthly dataset, variables indicating the month of the year are included; for bimonthly, indicator variables of the bimester are included. For daily dataset, on the other hand, two sets of indicator variables are added, those that account for the day of the week and another for the month of the year. The optimal order of the Arima terms is identified considering the entire modeling dataset.  
 
-ARIMA_SEASM 
+### ARIMA_SEASM 
 
 The Seasonal Arima model accounts for seasonality within its seasonal arima order and can include outlier indicator variables, if they are identified. Differently from a regular Arima model, a Seasonal Arima model is of the form ARIMA(p,d,q)x(P,D,Q)m, where P, D and Q are the seasonal auto-regressive, differencing and moving average terms, and m indicates the data frequency. This model treats the seasonality considering it is multiplicative, ie.  the seasonal patterns change through time, while the additive seasonality (modelled through ARIMA_SEASD) assumes that the patterns remain constant. 
 
-STL 
+### STL 
 
 The Seasonal and Trend decomposition using Loess (STL) is a method for estimating patterns within the response variable. A time series decomposition consists of separating the effects in the data into a trend, seasonality and an error, this way it is possible to see clearly each of these effects individually and identify important aspects of the data. The SLT Decomposition estimates these components iteratively, using Loess’ interpolation to smooth the estimation of the seasonal components and to find the trend estimation. 
 
