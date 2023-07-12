@@ -10,7 +10,7 @@ em que, p é a ordem da parte AR, q é a ordem da parte MA, d é a ordem de inte
 
 Para realizar a estimativa e previsão, o FaaS aplica o modelo de regressão com erros ARMA que estima as duas equações:
 
-* adicionar fórmula *
+*adicionar fórmula*
 
 Na primeira equação, estima os parâmetros das variáveis exógenas (impactos) e, na segunda, controla a autocorrelação dos resíduos, que podem prejudicar a estimação dos erros padrão dos parâmetros. Ambos os métodos (ARIMA e regressão com erros ARMA) são semelhantes e não há diferença em sua capacidade de previsão, mas o último tem a vantagem de manter a interpretação dos parâmetros estimados como nas regressões comuns (não dinâmicas).
 
@@ -87,15 +87,15 @@ Ideia principal: Combina 2 e 3.
 
 Atualmente existem três tipos distintos de modelos elementares, o STL, modelo Arima com variáveis indicadoras aditivas sazonais (ARIMA_SEASD) e modelo Arima Sazonal (ARIMA_SEASM), que trata a sazonalidade de forma multiplicativa. Os modelos elementares recebem esse nome porque incluem apenas informações sobre a própria variável resposta, sem a inclusão de nenhuma variável explicativa, exceto aquelas que respondem por sazonalidade ou observações outliers.
 
-ARIMA_SEASD
+### ARIMA_SEASD
 
 Os modelos Arima com variáveis indicadoras aditivas sazonais e outliers têm a mesma estrutura descrita na seção Arima, onde as variáveis indicadoras são incluídas no modelo como variáveis explicativas. As variáveis indicadoras sazonais são incluídas considerando a frequência dos dados, por exemplo, para dataset mensal, são incluídas variáveis que indicam o mês do ano; para bimestre, são incluídas as variáveis indicadoras do bimestre. Por outro lado, para o conjunto de dados diários, são adicionados dois conjuntos de variáveis indicadoras, aquelas que representam o dia da semana e outro o mês do ano. A ordem ótima dos termos Arima é identificada considerando todo o conjunto de dados de modelagem.
 
-ARIMA_SEASM
+### ARIMA_SEASM
 
 O modelo Sazonal Arima considera a sazonalidade dentro de sua ordem arima sazonal e pode incluir variáveis indicadoras atípicas, se forem identificadas. Diferentemente de um modelo Arima regular, um modelo Arima Sazonal é da forma ARIMA(p,d,q)x(P,D,Q)m, onde P, D e Q são as médias auto-regressivas, diferenciais e móveis sazonais termos, e m indica a frequência dos dados. Este modelo trata a sazonalidade considerando que ela é multiplicativa, ou seja. os padrões sazonais mudam ao longo do tempo, enquanto a sazonalidade aditiva (modelada por ARIMA_SEASD) assume que os padrões permanecem constantes.
 
-STL
+### STL
 
 A decomposição sazonal e de tendência usando Loess (STL) é um método para estimar padrões dentro da variável de resposta. Uma decomposição de série temporal consiste em separar os efeitos nos dados em tendência, sazonalidade e erro, assim é possível ver com clareza cada um desses efeitos individualmente e identificar aspectos importantes dos dados. A Decomposição SLT estima esses componentes iterativamente, usando a interpolação de Loess para suavizar a estimativa dos componentes sazonais e encontrar a estimativa de tendência.
 
