@@ -13,6 +13,17 @@
 Diário |	Semanal |	Quinzenal |	Mensal |	Bimestral |	Trimestral |	Semestral |	Anual
 180 |	52 |	24 |	36 |	24 |	24 |	24 |	12
 
+Frequência  | Mínimo de pontos de data
+:---:       | :---:
+Diário      | 180 
+Semanal     | 52 
+Quinzenal   | 24 
+Mensal      | 36 
+Bimestral   | 24 
+Trimestral  | 24 
+Semestral   | 24
+Anual       | 12 
+
 - Opcional: Colunas extras com variáveis preditivas/explicativas (apenas numéricas)
 
 ## Variáveis 
