@@ -2,13 +2,15 @@
 
 ## ARIMA 
 
-ARIMA é um acrônimo para modelo de **Média Móvel Integrada Autoregressiva**. Esse modelo permite a influência dos valores passados das variáveis dependentes nos valores presentes, também conhecida como autocorrelação. Portanto, ele é aplicado para estimar modelos dinâmicos. Podemos dividir o ARIMA em três partes: i) parte autoregressiva (AR); ii) parte de média móvel (MA); e iii) parte de integração. Geralmente, o ARIMA(p,d,q) pode ser expresso na função abaixo:  
-<!-- IMAGEM -->
+ARIMA é um acrônimo para modelo de Média Móvel Integrada Autoregressiva. Esse modelo permite a influência dos valores passados das variáveis dependentes nos valores presentes, também conhecida como autocorrelação. Portanto, ele é aplicado para estimar modelos dinâmicos. Podemos dividir o ARIMA em três partes: i) parte autoregressiva (AR); ii) parte de média móvel (MA); e iii) parte de integração. Geralmente, o ARIMA(p,d,q) pode ser expresso na função abaixo: 
+
+<!-- TODO: IMAGEM -->
+
 onde p é a ordem da parte autoregressiva (), q é a ordem da parte de média móvel (), d é a ordem de integração da série, ou seja, o número de diferenças necessárias para tornar a série temporal estacionária, e e são os parâmetros do modelo. O intercepto, representado por c na equação, também é chamado de "drift" (desvio) neste modelo. A parte de média móvel (MA) representa a autocorrelação nos resíduos, que, se não for controlada, pode enviesar a estimativa dos parâmetros. O ARIMA também pode incluir variáveis exógenas para aumentar o poder de previsão. Quando isso acontece, o ARIMA é conhecido como ARIMAX. 
 
 Para realizar a estimativa e a previsão, o FaaS aplica um modelo de regressão com erros ARMA que estima as duas equações:  
 
-<!-- IMAGEM -->
+<!-- TODO: IMAGEM -->
 
 Na primeira equação, são estimados os parâmetros das variáveis exógenas (impactos) e, na segunda equação, é controlada a autocorrelação dos resíduos, que pode prejudicar a estimativa dos erros padrão dos parâmetros. Ambos os métodos, ARIMA e regressão com erros ARMA, são semelhantes e não há diferença em sua capacidade de previsão, mas o último tem a vantagem de manter a interpretação dos parâmetros estimados, como em regressões comuns (não dinâmicas). 
 
@@ -18,7 +20,7 @@ Conforme o nome sugere, os métodos de combinação de previsões combinam valor
 
 Para simplificar a explicação dos métodos usados, eles foram divididos em 3 blocos: A) Métodos Simples; B) Métodos de Regressão; C) Abordagem de Autovetores; 
 
-#### A) Métodos Simples 
+**A) Métodos Simples** 
 
 - Bates/Granger (1969) - comb_BG Ideia principal: ponderar as previsões usando o inverso do erro médio quadrado da previsão (média da diferença ao quadrado entre a previsão e os valores reais). 
 
@@ -34,7 +36,7 @@ Para simplificar a explicação dos métodos usados, eles foram divididos em 3 b
 
 - Combinação de Previsão Newbold/Granger (1974) - comb_NG Ideia principal: Semelhante a "4) Combinação de Previsão Padrão de Autovetor", mas impondo a restrição linear e'w = 1, onde 'e' é um vetor de uns. 
 
-#### B) Métodos de Regressão 
+**B) Métodos de Regressão** 
 
 - Combinação de Previsão de Mínimos Quadrados Ordinários - comb_OLS Ideia principal: O método OLS executa um modelo linear simples com interceptação usando as previsões como regressores e os valores reais como variável dependente. 
 
@@ -42,7 +44,7 @@ Para simplificar a explicação dos métodos usados, eles foram divididos em 3 b
 
 - Combinação de Previsão de Desvio Absoluto Mínimo - comb_LAD Ideia principal: Funciona de forma semelhante a uma combinação por meio de mínimos quadrados ordinários, mas minimiza o valor absoluto dos erros em vez de erros ao quadrado. Este método é mais robusto a valores atípicos, pois a magnitude da penalização é menor do que erros ao quadrado. 
 
-#### C) Abordagem de Autovetores 
+**C) Abordagem de Autovetores**
 
 - Combinação de Previsão Padrão de Autovetor - comb_EIG1 Ideia principal: Minimizar o erro médio quadrado de previsão (v) por meio de uma combinação linear (w'((vv’)*w, onde w é o vetor de peso). Se a restrição imposta for do formato w'w = 1, a solução é encontrar o menor autovetor, que por sua vez está associado ao menor autovalor. 
 
@@ -56,11 +58,17 @@ Para simplificar a explicação dos métodos usados, eles foram divididos em 3 b
 
 Atualmente, existem três tipos distintos de modelos elementares: o STL, o modelo ARIMA com variáveis indicadoras sazonais aditivas (ARIMA_SEASD) e o modelo Arima Sazonal (ARIMA_SEASM), que trata a sazonalidade de forma multiplicativa. Os modelos elementares recebem esse nome porque incluem apenas informações sobre a própria variável de resposta, sem a inclusão de quaisquer variáveis explicativas, exceto aquelas que consideram sazonalidade ou observações atípicas. 
 
-**ARIMA_SEASD:** Os modelos ARIMA com variáveis indicadoras sazonais aditivas e de observações atípicas têm a mesma estrutura descrita na seção ARIMA, onde as variáveis indicadoras são incluídas no modelo como variáveis explicativas. As variáveis indicadoras sazonais são incluídas considerando a frequência dos dados. Por exemplo, para um conjunto de dados mensal, são incluídas variáveis que indicam o mês do ano; para bimestral, são incluídas variáveis indicadoras do bimestre. Para um conjunto de dados diário, por outro lado, são adicionados dois conjuntos de variáveis indicadoras: aqueles que consideram o dia da semana e outros para o mês do ano. A ordem ótima dos termos ARIMA é identificada considerando todo o conjunto de dados de modelagem. 
+**ARIMA_SEASD** 
 
-**ARIMA_SEASM:** O modelo Arima Sazonal considera a sazonalidade dentro de sua ordem sazonal de arima e pode incluir variáveis indicadoras de observações atípicas, se forem identificadas. Diferentemente de um modelo ARIMA regular, um modelo Arima Sazonal é da forma ARIMA(p,d,q)x(P,D,Q)m, onde P, D e Q são os termos auto-regressivos, de diferenciação e de média móvel sazonais, e m indica a frequência dos dados. Este modelo trata a sazonalidade considerando que ela é multiplicativa, ou seja, os padrões sazonais mudam ao longo do tempo, enquanto a sazonalidade aditiva (modelada através do ARIMA_SEASD) pressupõe que os padrões permanecem constantes. 
+Os modelos ARIMA com variáveis indicadoras sazonais aditivas e de observações atípicas têm a mesma estrutura descrita na seção ARIMA, onde as variáveis indicadoras são incluídas no modelo como variáveis explicativas. As variáveis indicadoras sazonais são incluídas considerando a frequência dos dados. Por exemplo, para um conjunto de dados mensal, são incluídas variáveis que indicam o mês do ano; para bimestral, são incluídas variáveis indicadoras do bimestre. Para um conjunto de dados diário, por outro lado, são adicionados dois conjuntos de variáveis indicadoras: aqueles que consideram o dia da semana e outros para o mês do ano. A ordem ótima dos termos ARIMA é identificada considerando todo o conjunto de dados de modelagem. 
 
-**STL:** A decomposição sazonal e de tendência usando Loess (STL) é um método para estimar padrões na variável de resposta. Uma decomposição de série temporal consiste em separar os efeitos nos dados em uma tendência, sazonalidade e um erro. Isso possibilita ver claramente cada um desses efeitos individualmente e identificar aspectos importantes dos dados. A decomposição STL estima esses componentes de forma iterativa, usando a interpolação de Loess para suavizar a estimativa dos componentes sazonais e encontrar a estimativa de tendência. 
+**ARIMA_SEASM** 
+
+O modelo Arima Sazonal considera a sazonalidade dentro de sua ordem sazonal de arima e pode incluir variáveis indicadoras de observações atípicas, se forem identificadas. Diferentemente de um modelo ARIMA regular, um modelo Arima Sazonal é da forma ARIMA(p,d,q)x(P,D,Q)m, onde P, D e Q são os termos auto-regressivos, de diferenciação e de média móvel sazonais, e m indica a frequência dos dados. Este modelo trata a sazonalidade considerando que ela é multiplicativa, ou seja, os padrões sazonais mudam ao longo do tempo, enquanto a sazonalidade aditiva (modelada através do ARIMA_SEASD) pressupõe que os padrões permanecem constantes. 
+
+**STL** 
+
+A decomposição sazonal e de tendência usando Loess (STL) é um método para estimar padrões na variável de resposta. Uma decomposição de série temporal consiste em separar os efeitos nos dados em uma tendência, sazonalidade e um erro. Isso possibilita ver claramente cada um desses efeitos individualmente e identificar aspectos importantes dos dados. A decomposição STL estima esses componentes de forma iterativa, usando a interpolação de Loess para suavizar a estimativa dos componentes sazonais e encontrar a estimativa de tendência. 
 
 ## Regressão Regularizada
 
