@@ -33,6 +33,7 @@ Corresponde ao aumento ou diminuição absoluto no valor da série temporal apó
 O coeficiente de correlação (ρ) mede a relação ou associação que existe entre duas variáveis. Usamos o coeficiente de correlação de Pearson, que mede a relação linear entre as variáveis de interesse, resultando em um valor entre -1 e 1. A equação para calcular o coeficiente de correlação de Pearson é apresentada abaixo: 
 
 <img title="Janelas do cross validation" alt="Cross Validation" src="pt-br/time-series/start/images/dataview.1.png">
+![Texto Alternativo](pt-br/time-series/start/images/dataview.1.png)
 
 Se um valor de (ρ) for maior que 0, isso indica que existe uma correlação linear positiva ou relação entre as duas variáveis de interesse, ou seja, se a variável X aumenta, a variável Y também aumentará. Quando (ρ) assume um valor menor que 0, temos a interpretação oposta, ou seja, há uma correlação ou relação linear negativa entre as variáveis de interesse; se X aumenta, Y diminuirá. Quando o valor de (ρ) é igual a 0, isso indica que não há relação linear entre as variáveis. 
 
