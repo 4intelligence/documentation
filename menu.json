@@ -2,18 +2,6 @@
   "menu": [
     {
       "name": {
-        "pt-br": "Getting Started",
-        "en-us": "Getting Started"
-      },
-      "description": {
-        "pt-br": "Comece sua jornada",
-        "en-us": "Starting your journey"
-      },
-      "path": "getting-started.md",
-      "icon": "book-bookmark"
-    },
-    {
-      "name": {
         "pt-br": "Time Series",
         "en-us": "Time Series"
       },
