@@ -25,8 +25,8 @@
           "submenu": [
             {
               "name": {
-                "pt-br": "1_indicadores.md",
-                "en-us": "1_indicadores.md"
+                "pt-br": "Indicadores",
+                "en-us": "Indicadores"
               },
               "description": {
                 "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
@@ -36,8 +36,8 @@
             },
             {
               "name": {
-                "pt-br": "2_region.md",
-                "en-us": "2_region.md"
+                "pt-br": "Região",
+                "en-us": "Região"
               },
               "description": {
                 "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
@@ -47,8 +47,8 @@
             },
             {
               "name": {
-                "pt-br": "3_frequency.md",
-                "en-us": "3_frequency.md"
+                "pt-br": "Frequência",
+                "en-us": "Frequência"
               },
               "description": {
                 "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
@@ -58,8 +58,8 @@
             },
             {
               "name": {
-                "pt-br": "4_primary_transformation.md",
-                "en-us": "4_primary_transformation.md"
+                "pt-br": "Primeira Transformação",
+                "en-us": "Primeira Transformação"
               },
               "description": {
                 "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
@@ -69,8 +69,8 @@
             },
             {
               "name": {
-                "pt-br": "5_secondary_transformation.md",
-                "en-us": "5_secondary_transformation.md"
+                "pt-br": "Segunda Transformação",
+                "en-us": "Segunda Transformação"
               },
               "description": {
                 "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
@@ -93,8 +93,8 @@
           "submenu": [
             {
               "name": {
-                "pt-br": "1_chat_4i.md",
-                "en-us": "1_chat_4i.md"
+                "pt-br": "Chat 4i",
+                "en-us": "Chat 4i"
               },
               "description": {
                 "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
@@ -104,8 +104,8 @@
             },
             {
               "name": {
-                "pt-br": "2_texto_e_arvores.md",
-                "en-us": "2_texto_e_arvores.md"
+                "pt-br": "Texto e Árvores",
+                "en-us": "Texto e Árvores"
               },
               "description": {
                 "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
