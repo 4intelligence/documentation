@@ -58,8 +58,8 @@
             },
             {
               "name": {
-                "pt-br": "Primeira Transformação",
-                "en-us": "Primeira Transformação"
+                "pt-br": "Transformação Primária",
+                "en-us": "Transformação Primária"
               },
               "description": {
                 "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
@@ -69,8 +69,8 @@
             },
             {
               "name": {
-                "pt-br": "Segunda Transformação",
-                "en-us": "Segunda Transformação"
+                "pt-br": "Transformação Secundária",
+                "en-us": "Transformação Secundária"
               },
               "description": {
                 "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
