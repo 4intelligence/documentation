@@ -10,7 +10,7 @@
         "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
       },
       "path": "feature-store",
-      "icon": "chart-line",
+      "icon": "database",
       "submenu": [
         {
           "name": {
