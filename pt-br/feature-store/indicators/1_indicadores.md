@@ -18,7 +18,7 @@ A Feature Store está organizada de modo que as séries são uma combinação de
 -   Região: Brasil
 -   Frequência: Mensal
 -   Transformação Primária: Real
--   Transformaçaõ Secundária: Variação contra igual período do ano anterior.
+-   Transformação Secundária: Variação contra igual período do ano anterior.
 
 ## Qual é a informação contida em cada elemento de um série?
 
