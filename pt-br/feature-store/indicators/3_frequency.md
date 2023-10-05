@@ -23,3 +23,11 @@ Voltando ao exemplo das temperaturas médias registradas, imagine que você dese
 Em resumo, para agregar temporalmente uma série, é preciso definir qual é a o cálculo que irá condensar as informações das observações da frequência original para a frequência que queremos atingir.
 
 Na Feature Store, quando a frequência é acompanhada pela indicação de um cálculo, como média ou soma, isso indica que a agregação foi construída automaticamente pelos nossos sistemas para facilitar sua análise. A agregação oferece uma visão mais abrangente das tendências e simplifica a compreensão do comportamento dos dados ao longo do tempo.
+
+<style>
+blue4i {
+  color: #4C94FF;
+}
+</style>
+
+<blue4i>**Agora que você entende sobre indicadores, regiões e frequência, você está pronto para mergulhar em nossos tratamentos de dados. Confira no próximo artigo!**</blue4i>

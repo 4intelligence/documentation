@@ -18,4 +18,10 @@ Há também indicadores de economia internacional, com foco em países da Améri
 
 No entanto, existem conjuntos de dados que não estão vinculados a um local específico, mas sim a contextos mais amplos. Considere o [Índice de Commodities CRB](https://4casthub.ai/feature-store/indicators/WDPRC0118), que acompanha a evolução das cotações internacionais de uma cesta de produtos. Nesse caso, o indicador não está ligado a um único local, mas sim ao comércio internacional, por isso, a Feature Store indica Mundo como região.
 
--- CTA para prosseguir a leitura --
+<style>
+blue4i {
+  color: #4C94FF;
+}
+</style>
+
+<blue4i>**No próximo artigo, você entenderá como organiza os dados de acordo com a sua periodicidade e como transformar a periodicidade dos dados.**</blue4i>

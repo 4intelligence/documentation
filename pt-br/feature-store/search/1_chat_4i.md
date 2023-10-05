@@ -22,26 +22,40 @@ Como o Chat4i é um funcionalidade nova, ainda uma das suas primeiras versões, 
 
 **1) Encontre os indicadores que quantificam os fenômenos e fatores que você quer acompanhar**
 
--   Nem sempre sabemos como procurar pela informação que buscamos, ainda mais quando essa informação é um dado. Afinal, o mundo dos dados, principalmente dos econômicos, pode ser uma sopa de letrinhas, PIB, IPCA, Selic, IC-BR ... !
+-   Nem sempre sabemos como procurar pela informação que buscamos, ainda mais quando essa informação é um dado. Afinal, o mundo dos dados, principalmente dos econômicos, pode ser uma sopa de letrinhas, PIB, IPCA, Selic, IC-BR ... 
 
-![Veja como o Chat4i te ajuda a desembaralhar as letras!](img/inflacao_ipc_ipca.png)
+    Veja como o Chat4i te ajuda a desembaralhar as letras!
+
+![](img/inflacao_ipc_ipca.png)
 
 **2) Explore indicadores que se conectam com seu negócio**
 
 -   Descubra quais fatores potencialmente se relacionam com o negócio para acompanhá-los sistematicamente através da Feature Store, assim você não perde o que está acontecendo.
 
-![Veja como o Chat4i te ajuda descobrir indicadores relevantes!](img/hidratante_chuva.png)
+    Veja como o Chat4i te ajuda descobrir indicadores relevantes!
+
+![](img/hidratante_chuva.png)
 
 **3) Pesquise de uma forma mais dinâmica**
 
 -   Se você já tem uma boa noção de quais são os fatores que mais afetam o seu negócio e quais indicadores quantificam esses fatores de forma objetiva, o Chat4i te ajuda a pesquisar focando setores e produtos específicos.
 
-![Veja como o Chat4i te ajuda a descobrir quais dados nichados estão disponíveis!](img/exportacao_soja.png)
+    Veja como o Chat4i te ajuda a descobrir quais dados nichados estão disponíveis!
+
+![](img/exportacao_soja.png)
 
 **4) Tire dúvidas sobre transformações e tratamentos de indicadores**
 
 -   Aproveite o dinamismo e conhecimento da nossa aplicação de inteligencia artificial para fazer aprender sobre técnicas do mundo da ciência de dados e estatística. Não deixe de utilizar uma informação valiosa porque você não entende como foi gerada e o que significa.
 
-![Veja como o Chat4i te ajuda a entender termos técnicos e jargões!](img/chat4i_sazonal.png)
+    Veja como o Chat4i te ajuda a entender termos técnicos e jargões!
 
-Agora que você sabe tudo sobre o Chat4i, qual será sua próxima pergunta?
+![](img/chat4i_sazonal.png)
+
+<style>
+blue4i {
+  color: #4C94FF;
+}
+</style>
+
+<blue4i>**Agora que você sabe tudo sobre o Chat4i, qual será sua próxima pergunta?**</blue4i>

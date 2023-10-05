@@ -12,7 +12,7 @@ As séries são o nível mais detalhado de informação da Feature Store. Cada u
 
 Os gráficos da plataforma que ilustram a evolução dos dados no tempo e as informações que você exporta da plataforma para uma planilha ou envia para um grupo de favoritos são todos séries temporais.
 
-A Feature Store está organizada de modo que as séries são uma combinação de cinco componentes: indicador, região, frequência, transformação primária e transformação secundária. Voltando ao exemplo anterior, para acompanhar o crescimento real da economia brasileira ao longo dos anos, combinamos os seguintes elementos.
+A Feature Store está organizada de modo que as séries são uma combinação de cinco componentes: indicador, região, frequência, transformação primária e transformação secundária. Voltando ao exemplo anterior, para acompanhar o crescimento real da economia brasileira ao longo dos anos, combinamos os seguintes componentes.
 
 -   **Indicador**: BRA - PIB - 4intelligence
 -   **Região**: Brasil
@@ -40,4 +40,10 @@ São os tratamentos iniciais aplicados à série bruta, ou seja, extraída diret
 
 São tratamentos adicionais aplicadas após as transformações primárias, visando criar métricas específicas, como calcular taxas de variação ou acumular valores ao longo de um período.
 
-Para saber mais sobre cada componente de uma série, confira os próximos artigos!
+<style>
+blue4i {
+  color: #4C94FF;
+}
+</style>
+
+<blue4i>**Para saber mais sobre cada componente de uma série, confira os próximos artigos!**</blue4i>
