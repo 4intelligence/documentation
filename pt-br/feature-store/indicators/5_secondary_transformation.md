@@ -16,7 +16,7 @@ As transformações secundárias envolvem cálculos e manipulações adicionais 
 
 As principais transformações primárias são aquelas que constroem métricas para acompanhar variações ao longo do tempo, acumular valores dentro alguns períodos e comparativas. Porém, existem diversas transformações secundárias disponíveis na Feature Store, sendo que as transformações disponíveis para cada indicador variam de acordo com a natureza dos indicadores. Você não precisa se preocupar com curadoria dessas métricas, a 4intelligence já deixou os calculos prontos para você!
 
- Abaixo você encontra as transformações secundárias mais comuns:
+Abaixo você encontra as transformações secundárias mais comuns:
 
 **1) Variações no tempo**
 

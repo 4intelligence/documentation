@@ -6,7 +6,7 @@ Nessa seção, vamos abordar como a Feature Store organiza os dados de acordo co
 
 A Feature Store é uma base de dados composta por séries temporais e cada série temporal é caracterizada por uma frequência.
 
-Para entender o conceito de frequência em séries temporais, imagine que você tenha registrado diariamente a [temperatura média](https://4casthub.ai/feature-store/indicators/BRMTG0003) em sua cidade ao longo de um ano, criando uma lista ordenada cronológicamente das temperaturas. Essa lista de temperaturas forma uma série temporal. A frequência dessa série temporal é diária, pois você registrou a temperatura todos os dias.
+Para entender o conceito de frequência em séries temporais, imagine que você tenha registrado diariamente a [temperatura média](https://4casthub.ai/feature-store/indicators/BRMTG0003) em sua cidade ao longo de um ano, criando uma lista ordenada cronologicamente das temperaturas. Essa lista de temperaturas forma uma série temporal. A frequência dessa série temporal é diária, pois você registrou a temperatura todos os dias.
 
 Em termos simples, a frequência de uma série temporal representa o intervalo de tempo entre cada registro de dados, o que nos permite entender a regularidade das observações ao longo do tempo.
 
