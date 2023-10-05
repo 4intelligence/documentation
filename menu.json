@@ -2,15 +2,120 @@
   "menu": [
     {
       "name": {
-        "pt-br": "Getting Started",
-        "en-us": "Getting Started"
+        "pt-br": "Feature Store",
+        "en-us": "Feature Store"
       },
       "description": {
-        "pt-br": "Comece sua jornada",
-        "en-us": "Starting your journey"
+        "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+        "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
       },
-      "path": "getting-started.md",
-      "icon": "book-bookmark"
+      "path": "feature-store",
+      "icon": "database",
+      "submenu": [
+        {
+          "name": {
+            "pt-br": "Indicadores",
+            "en-us": "Indicadores"
+          },
+          "description": {
+            "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+            "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+          },
+          "path": "indicators",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Indicadores",
+                "en-us": "Indicadores"
+              },
+              "description": {
+                "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+                "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+              },
+              "path": "1_indicadores.md"
+            },
+            {
+              "name": {
+                "pt-br": "Região",
+                "en-us": "Região"
+              },
+              "description": {
+                "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+                "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+              },
+              "path": "2_region.md"
+            },
+            {
+              "name": {
+                "pt-br": "Frequência",
+                "en-us": "Frequência"
+              },
+              "description": {
+                "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+                "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+              },
+              "path": "3_frequency.md"
+            },
+            {
+              "name": {
+                "pt-br": "Transformação Primária",
+                "en-us": "Transformação Primária"
+              },
+              "description": {
+                "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+                "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+              },
+              "path": "4_primary_transformation.md"
+            },
+            {
+              "name": {
+                "pt-br": "Transformação Secundária",
+                "en-us": "Transformação Secundária"
+              },
+              "description": {
+                "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+                "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+              },
+              "path": "5_secondary_transformation.md"
+            }
+          ]
+        },
+        {
+          "name": {
+            "pt-br": "Pesquisa",
+            "en-us": "Pesquisa"
+          },
+          "description": {
+            "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+            "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+          },
+          "path": "search",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Chat 4i",
+                "en-us": "Chat 4i"
+              },
+              "description": {
+                "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+                "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+              },
+              "path": "1_chat_4i.md"
+            },
+            {
+              "name": {
+                "pt-br": "Texto e Árvores",
+                "en-us": "Texto e Árvores"
+              },
+              "description": {
+                "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
+                "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+              },
+              "path": "2_texto_e_arvores.md"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": {
