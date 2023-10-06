@@ -95,6 +95,43 @@
       "submenu": [
         {
           "name": {
+            "pt-br": "Introdução",
+            "en-us": "Introdução"
+          },
+          "path": "start",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Requisitos do Dataset",
+                "en-us": "Requisitos do Dataset"
+              },
+              "path": "1_dataset_requirements.md"
+            },
+            {
+              "name": {
+                "pt-br": "Passo a Passo",
+                "en-us": "Passo a Passo"
+              },
+              "path": "2_step_by_step.md"
+            },
+            {
+              "name": {
+                "pt-br": "Integração Feature Store",
+                "en-us": "Integração Feature Store"
+              },
+              "path": "3_integracao_fs.md"
+            },
+            {
+              "name": {
+                "pt-br": "Visualizar Dados",
+                "en-us": "Visualizar Dados"
+              },
+              "path": "4_data_view.md"
+            }
+          ]
+        },
+        {
+          "name": {
             "pt-br": "Modelagem",
             "en-us": "Modelagem"
           },
@@ -157,43 +194,6 @@
                 "en-us": "Seleção IA"
               },
               "path": "2_ai_selection.md"
-            }
-          ]
-        },
-        {
-          "name": {
-            "pt-br": "Introdução",
-            "en-us": "Introdução"
-          },
-          "path": "start",
-          "submenu": [
-            {
-              "name": {
-                "pt-br": "Requisitos do Dataset",
-                "en-us": "Requisitos do Dataset"
-              },
-              "path": "1_dataset_requirements.md"
-            },
-            {
-              "name": {
-                "pt-br": "Passo a Passo",
-                "en-us": "Passo a Passo"
-              },
-              "path": "2_step_by_step.md"
-            },
-            {
-              "name": {
-                "pt-br": "Integração Feature Store",
-                "en-us": "Integração Feature Store"
-              },
-              "path": "3_integracao_fs.md"
-            },
-            {
-              "name": {
-                "pt-br": "Visualizar Dados",
-                "en-us": "Visualizar Dados"
-              },
-              "path": "4_data_view.md"
             }
           ]
         }
