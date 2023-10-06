@@ -38,4 +38,10 @@ Abaixo você encontra as transformações secundárias mais comuns:
 
 -   Cálculo recomendados para o exemplo de finanças públicas.
 
-Agora você já conhece toda a organização e tratamentos de dados da Feature Store. [Qual série você irá incluir na sua análise?](https://4casthub.ai/feature-store/indicators)
+<style>
+blue4i {
+  color: #4C94FF;
+}
+</style>
+
+<blue4i>**Agora você já conhece toda a organização e tratamentos de dados da Feature Store. [Qual série você irá incluir na sua análise?](https://4casthub.ai/feature-store/indicators)**</blue4i>

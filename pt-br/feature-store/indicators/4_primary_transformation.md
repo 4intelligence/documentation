@@ -32,4 +32,10 @@ Para entender melhor porque transformações primárias são importantes para fa
 
 -   Série bruta com dois tratamentos, um para correção monetária e outro para limpar padrões sazonais.
 
-Antes de concluir sua análise, atente-se também às transformações secundárias. No próximo artigo, você encontrará o detalhamento desses tratamentos adicionais!
+<style>
+blue4i {
+  color: #4C94FF;
+}
+</style>
+
+<blue4i>**Antes de concluir sua análise, atente-se também às transformações secundárias. No próximo artigo, você encontrará o detalhamento desses tratamentos adicionais!**</blue4i>
