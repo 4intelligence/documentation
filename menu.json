@@ -102,8 +102,8 @@
           "submenu": [
             {
               "name": {
-                "pt-br": "Requisitos do Dataset",
-                "en-us": "Requisitos do Dataset"
+                "pt-br": "Requisitos do Arquivo de Dados",
+                "en-us": "Requisitos do Arquivo de Dados"
               },
               "path": "1_dataset_requirements.md"
             },
