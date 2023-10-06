@@ -95,17 +95,107 @@
       "submenu": [
         {
           "name": {
-            "pt-br": "Tipos de Modelagem",
-            "en-us": "Modeling Types"
+            "pt-br": "Modelagem",
+            "en-us": "Modelagem"
           },
-          "path": "modeling.md"
+          "path": "modeling",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Tipos de Modelos",
+                "en-us": "Tipos de Modelos"
+              },
+              "path": "1_model_types.md"
+            },
+            {
+              "name": {
+                "pt-br": "Ajustes Finos",
+                "en-us": "Ajustes Finos"
+              },
+              "path": "2_fine_tunning.md"
+            },
+            {
+              "name": {
+                "pt-br": "Validação",
+                "en-us": "Validação"
+              },
+              "path": "3_validade.md"
+            },
+            {
+              "name": {
+                "pt-br": "Seleção de Variáveis",
+                "en-us": "Seleção de Variáveis"
+              },
+              "path": "4_feature_selection.md"
+            },
+            {
+              "name": {
+                "pt-br": "Variáveis Defasadas",
+                "en-us": "Variáveis Defasadas"
+              },
+              "path": "5_lags.md"
+            }
+          ]
         },
         {
           "name": {
-            "pt-br": "Pré Modelagem",
-            "en-us": "Pre-Modeling"
+            "pt-br": "Resultados",
+            "en-us": "Resultados"
           },
-          "path": "pre-modeling.md"
+          "path": "results",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Visão Geral",
+                "en-us": "Visão Geral"
+              },
+              "path": "1_overview.md"
+            },
+            {
+              "name": {
+                "pt-br": "Seleção IA",
+                "en-us": "Seleção IA"
+              },
+              "path": "2_ai_selection.md"
+            }
+          ]
+        },
+        {
+          "name": {
+            "pt-br": "Introdução",
+            "en-us": "Introdução"
+          },
+          "path": "start",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Requisitos do Dataset",
+                "en-us": "Requisitos do Dataset"
+              },
+              "path": "1_dataset_requirements.md"
+            },
+            {
+              "name": {
+                "pt-br": "Passo a Passo",
+                "en-us": "Passo a Passo"
+              },
+              "path": "2_step_by_step.md"
+            },
+            {
+              "name": {
+                "pt-br": "Integração Feature Store",
+                "en-us": "Integração Feature Store"
+              },
+              "path": "3_integracao_fs.md"
+            },
+            {
+              "name": {
+                "pt-br": "Visualizar Dados",
+                "en-us": "Visualizar Dados"
+              },
+              "path": "4_data_view.md"
+            }
+          ]
         }
       ]
     }
