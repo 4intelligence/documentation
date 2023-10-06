@@ -20,7 +20,7 @@ A Feature Store está organizada de modo que as séries são uma combinação de
 -   **Transformação Primária**: Real
 -   **Transformação Secundária**: Variação contra igual período do ano anterior
 
-\-- print da tela de indicador para mostrar configuração dos elementos \--
+![](img/serie_pib.png)
 
 ## Qual é a informação contida em cada componente de uma série?
 
