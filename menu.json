@@ -91,7 +91,7 @@
         "en-us": "Learn to create forecasts in 3 steps for the future using our modeling engine. You'll also find technical support here for specific questions about our methods."
       },
       "path": "time-series",
-      "icon": "chart-line",
+      "icon": "cube",
       "submenu": [
         {
           "name": {
