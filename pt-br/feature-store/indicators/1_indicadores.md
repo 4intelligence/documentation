@@ -1,4 +1,4 @@
-# Organização dos dados da Feature Store
+# Entendendo os Indicadores
 
 Nessa seção, vamos abordar indicadores, séries e seus componentes. Ao final da leitura você compreenderá a organização dos dados na Feature Store.
 
