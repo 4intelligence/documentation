@@ -1,6 +1,6 @@
 # Entendendo as Projeções
 
-Nessa seção, vamos abordar como são feitas as projeções que estão disponíveis na Feature Store
+Nessa seção, vamos abordar como são feitas as projeções que estão disponíveis na Feature Store e quando são atualizadas.
 
 ## O que são valores históricos e projeções?
 
@@ -36,10 +36,23 @@ Para aqueles leitores que buscam informações mais técnicas, em breve, disponi
 
 ## Com que frequência as projeções são atualizadas?
 
-xxxxxxxxxxxxxxxxxxx
+
+Sempre que há novas informações relevantes para o indicador em questão, a sua projeção é atualizada. De modo geral, existem dois tipos de nova informação que motivam essa atualização: novos dados realizados e mudança de cenário.
+
+**Novos dados realizados:** O ambiente de negócios está em constante evolução. As condições econômicas, as preferências dos consumidores e os fatores externos podem mudar ao longo do tempo. Portanto, é importante coletar dados atualizados para refletir com precisão as condições atuais do mercado. Dessa forma, quando a fonte primária do indicador divulga um novo dado realizado, esse dado é coletado e tratado pelo *crawlers* da 4intelligence e imediatamente disponibilizado na Feature Store. Considerando esse novo dado realizado, a projeção é atualizada.
+
+**Mudança de cenário:** Além disso, eventos inesperados, como crises econômicas, pandemias ou desastres naturais, podem ter um impacto significativo nas projeções. Novos eventos precisam ser incorporados aos dados e às covariadas para obter projeções precisas. Dessa forma, nosso time de especialistas está sempre atento a conjuntura para atualizar as projeções quando o cenário muda.
+
+Você encontra a data da última atualização na página de cada indicador logo abaixo do gráfico.
 
 ## Todos os indicadores da Feature Store tem projeção?
 
-xxxxxxxxxxxxxxxxxxx
+Atualmente, há indicadores da Feature Store que não tem projeções disponíveis. Em breve, esse tipo de informação será disponibilizado para um conjunto mais amplo de indicadores.
 
----CTA para próximo artigo---
+<style>
+blue4i {
+  color: #4C94FF;
+}
+</style>
+
+<blue4i> **Agora que você entende como são feitas as projeções, explore os indicadores econômicos da Feature Store para entender o cenário futuro da economia brasileira!** <blue4i>
