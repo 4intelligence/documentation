@@ -12,14 +12,14 @@ Sua principal função é recomendar quais são as variáveis que trazem maior s
 
 Durante a criação de um projeto de séries temporais, no 2º passo, basta acessar o botão "+ Feature Store". 
 
-<img title="Enriquecendo seu conjunto de dados" alt="Feature Store" src="images/integ_fs1.png">
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/intro/img/integ_fs1.png)
 
 Inicie o processo da nossa inteligência artificial e em poucos segundos será recomendado até 30 variáveis para enriquecer o seu conjunto de dados. Selecione as desejadas e envie para o seu dataset. 
 
-<img title="Pick4me" alt="Pick4me" src="images/integ_fs2.png">
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/intro/img/integ_fs2.png)
 
 ### Séries favoritas
 
 Utilize também os grupos de séries favoritas: seja os favoritos 4i disponibilizados com as principais séries ou as suas séries favoritas. 
 
-<img title="Grupos Feature Store" alt="Grupos Feature Store" src="images/integ_fs3.png">
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/intro/img/integ_fs3.png)
