@@ -6,7 +6,7 @@ A validação cruzada é uma técnica usada para garantir que os modelos possam 
 
 Existem vários tipos de validação cruzada, mas para séries temporais usamos a validação cruzada deslizante (rolling cross-validation), na qual as amostras são tomadas em ordem e o modelo é treinado e faz previsões N passos à frente, onde N é o horizonte de previsão fornecido. O processo de subdivisão do conjunto de dados original pode ser visto abaixo: 
 
-<img title="Janelas do cross validation" alt="Cross Validation" src="img/cross_validation.jpeg">
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/modelagem/img/cross_validation.png)
 
 Após todas as iterações serem concluídas, as medidas de precisão são resumidas pelo valor médio ou mediano dos resultados obtidos em cada iteração (o que chamamos de janela), e esses são os resultados fornecidos para cada modelo na previsão final. 
 

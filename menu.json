@@ -98,35 +98,35 @@
             "pt-br": "Introdução",
             "en-us": "Introdução"
           },
-          "path": "start",
+          "path": "intro",
           "submenu": [
             {
               "name": {
                 "pt-br": "Requisitos do Arquivo de Dados",
                 "en-us": "Requisitos do Arquivo de Dados"
               },
-              "path": "1_dataset_requirements.md"
+              "path": "requisitos.md"
             },
             {
               "name": {
                 "pt-br": "Passo a Passo",
                 "en-us": "Passo a Passo"
               },
-              "path": "2_step_by_step.md"
+              "path": "passos.md"
             },
             {
               "name": {
                 "pt-br": "Integração Feature Store",
                 "en-us": "Integração Feature Store"
               },
-              "path": "3_integracao_fs.md"
+              "path": "integracao-fs.md"
             },
             {
               "name": {
                 "pt-br": "Visualizar Dados",
                 "en-us": "Visualizar Dados"
               },
-              "path": "4_data_view.md"
+              "path": "data-vier.md"
             }
           ]
         },
@@ -135,65 +135,58 @@
             "pt-br": "Modelagem",
             "en-us": "Modelagem"
           },
-          "path": "modeling",
+          "path": "modelagem",
           "submenu": [
             {
               "name": {
                 "pt-br": "Tipos de Modelos",
                 "en-us": "Tipos de Modelos"
               },
-              "path": "1_model_types.md"
+              "path": "modelos.md"
             },
             {
               "name": {
                 "pt-br": "Ajustes Finos",
                 "en-us": "Ajustes Finos"
               },
-              "path": "2_fine_tunning.md"
+              "path": "ajustes-finos.md"
             },
             {
               "name": {
                 "pt-br": "Validação",
                 "en-us": "Validação"
               },
-              "path": "3_validade.md"
+              "path": "validacao.md"
             },
             {
               "name": {
                 "pt-br": "Seleção de Variáveis",
                 "en-us": "Seleção de Variáveis"
               },
-              "path": "4_feature_selection.md"
+              "path": "feature-selection.md"
             },
             {
               "name": {
                 "pt-br": "Variáveis Defasadas",
                 "en-us": "Variáveis Defasadas"
               },
-              "path": "5_lags.md"
+              "path": "lags.md"
             }
           ]
         },
         {
           "name": {
-            "pt-br": "Resultados",
-            "en-us": "Resultados"
+            "pt-br": "Resultados do seu projeto",
+            "en-us": "Resultados do seu projeto"
           },
-          "path": "results",
+          "path": "resultados",
           "submenu": [
             {
               "name": {
-                "pt-br": "Visão Geral",
-                "en-us": "Visão Geral"
+                "pt-br": "Páginas",
+                "en-us": "Páginas"
               },
-              "path": "1_overview.md"
-            },
-            {
-              "name": {
-                "pt-br": "Seleção IA",
-                "en-us": "Seleção IA"
-              },
-              "path": "2_ai_selection.md"
+              "path": "resultados.md"
             }
           ]
         }

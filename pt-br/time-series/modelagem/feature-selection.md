@@ -1,6 +1,5 @@
 # Feature Selection
 
-
 ## Ideia geral  
 
 A seleção de características tem como objetivo escolher as características (variáveis) contínuas mais relevantes a partir do conjunto de opções disponíveis, reduzindo a dimensionalidade da matriz de regressores, o que geralmente é um problema para a convergência do modelo. 
