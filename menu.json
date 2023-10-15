@@ -176,24 +176,17 @@
         },
         {
           "name": {
-            "pt-br": "Resultados",
-            "en-us": "Resultados"
+            "pt-br": "Resultados do seu projeto",
+            "en-us": "Resultados do seu projeto"
           },
           "path": "resultados",
           "submenu": [
             {
               "name": {
-                "pt-br": "Visão Geral",
-                "en-us": "Visão Geral"
+                "pt-br": "Páginas",
+                "en-us": "Páginas"
               },
-              "path": "overview.md"
-            },
-            {
-              "name": {
-                "pt-br": "Seleção IA",
-                "en-us": "Seleção IA"
-              },
-              "path": "ai-selection.md"
+              "path": "resultados.md"
             }
           ]
         }
