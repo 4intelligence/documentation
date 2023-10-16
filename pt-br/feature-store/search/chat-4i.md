@@ -27,7 +27,7 @@ Como o Chat4i é um funcionalidade nova, ainda em uma das suas primeiras versõe
 
     Veja como o Chat4i te ajuda a desembaralhar as letras!
 
-![](img/inflacao_ipc_ipca.png)
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/feature-store/search/img/inflacao_ipc_ipca.png)
 
 
 **2) Explore indicadores que se conectam com seu negócio**
@@ -36,7 +36,7 @@ Como o Chat4i é um funcionalidade nova, ainda em uma das suas primeiras versõe
 
     Veja como o Chat4i te ajuda descobrir indicadores relevantes!
 
-![](img/hidratante_chuva.png)
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/feature-store/search/img/hidratante_chuva.png)
 
 
 **3) Pesquise de uma forma mais dinâmica**
@@ -45,7 +45,7 @@ Como o Chat4i é um funcionalidade nova, ainda em uma das suas primeiras versõe
 
     Veja como o Chat4i te ajuda a descobrir quais dados nichados estão disponíveis!
 
-![](img/exportacao_soja.png)
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/feature-store/search/img/exportacao_soja.png)
 
 
 **4) Tire dúvidas sobre transformações e tratamentos de indicadores**
@@ -54,7 +54,8 @@ Como o Chat4i é um funcionalidade nova, ainda em uma das suas primeiras versõe
 
     Veja como o Chat4i te ajuda a entender termos técnicos e jargões!
 
-![](img/chat4i_sazonal.png)
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/feature-store/search/img/chat4i_sazonal.png)
+
 
 <style>
 blue4i {
