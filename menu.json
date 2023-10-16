@@ -24,35 +24,35 @@
                 "pt-br": "Indicadores",
                 "en-us": "Indicadores"
               },
-              "path": "1_indicadores.md"
+              "path": "indicadores.md"
             },
             {
               "name": {
                 "pt-br": "Região",
                 "en-us": "Região"
               },
-              "path": "2_region.md"
+              "path": "regiao.md"
             },
             {
               "name": {
                 "pt-br": "Frequência",
                 "en-us": "Frequência"
               },
-              "path": "3_frequency.md"
+              "path": "frequencia.md"
             },
             {
               "name": {
                 "pt-br": "Transformação Primária",
                 "en-us": "Transformação Primária"
               },
-              "path": "4_primary_transformation.md"
+              "path": "transformacao-primaria.md"
             },
             {
               "name": {
                 "pt-br": "Transformação Secundária",
                 "en-us": "Transformação Secundária"
               },
-              "path": "5_secondary_transformation.md"
+              "path": "transformacao-secundaria.md"
             }
           ]
         },
@@ -68,14 +68,14 @@
                 "pt-br": "Chat 4i",
                 "en-us": "Chat 4i"
               },
-              "path": "1_chat_4i.md"
+              "path": "chat-4i.md"
             },
             {
               "name": {
                 "pt-br": "Texto e Árvores",
                 "en-us": "Texto e Árvores"
               },
-              "path": "2_texto_e_arvores.md"
+              "path": "busca-e-categorias.md"
             }
           ]
         }
