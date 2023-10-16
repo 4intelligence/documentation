@@ -34,5 +34,4 @@ Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais s
 
 Na última etapa, defina qual o período da sua projeção você deseja otimizar. 
 
-Agora já é possível iniciar o processo de modelagem para os seus dados. Porém, em caso de necessidade, ainda é possível realizar alguns ajustes finos. Entenda quais os ajustes disponíveis no documento de [Ajustes Finos](/time-series/modelagem/ajustes-finos.md).  
-
+Agora já é possível iniciar o processo de modelagem para os seus dados. Porém, em caso de necessidade, ainda é possível realizar alguns ajustes finos. Entenda quais os ajustes disponíveis no documento de [Ajustes Finos](/time-series/modelagem/ajustes-finos.md). 

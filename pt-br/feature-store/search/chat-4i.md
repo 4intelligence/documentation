@@ -4,7 +4,7 @@ Nesta seção, vamos explorar o Chat4i e como usá-lo para obter insights para a
 
 ## O que é Chat4i?
 
-O Chat4i é uma nova forma de usar ChatGPT voltada para inteligência de dados e desenvolvida pela 4intelligence.Mas, o que é o ChatGPT? De forma simplificada, podemos dizer que o ChatGPT é como um computador que pode conversar com as pessoas. Ele usa a inteligência artificial para entender o que você diz e responder às suas perguntas de forma única, mesmo que sejam perguntas complexas. É como ter uma conversa com um assistente digital, que tem guardado na memória um mundo muito vasto de informações, permitindo que ele dialogue sobre assuntos diversos. Por exemplo, ele pode criar histórias, resolver equações matemáticas, escrever códigos, traduzir entre idiomas, fazer resumos, recomendações e muito mais.
+O Chat4i é uma nova forma de usar ChatGPT voltada para inteligência de dados e desenvolvida pela 4intelligence. Mas, o que é o ChatGPT? De forma simplificada, podemos dizer que o ChatGPT é como um computador que pode conversar com as pessoas. Ele usa a inteligência artificial para entender o que você diz e responder às suas perguntas de forma única, mesmo que sejam perguntas complexas. É como ter uma conversa com um assistente digital, que tem guardado na memória um mundo muito vasto de informações, permitindo que ele dialogue sobre assuntos diversos. Por exemplo, ele pode criar histórias, resolver equações matemáticas, escrever códigos, traduzir entre idiomas, fazer resumos, recomendações e muito mais.
 
 Agora que você já sabe o que é ChatGPT e o que ele pode fazer, fica mais fácil entender o Chat4i. A 4intelligence turbinou o treinamento do ChatGPT com toda a inteligência de dados da Feature Store. Focado em ajudá-lo a encontrar os indicadores que você precisa para criar suas análises, o Chat4i recomenda dados para enriquecer suas análises, discorrendo sobre relações e impactos dos indicadores no seu negócio. Assim, você entende porque os dados recomendados são relevantes para tomanda de decisão e suas análises ficam mais completas.
 
@@ -27,7 +27,7 @@ Como o Chat4i é um funcionalidade nova, ainda em uma das suas primeiras versõe
 
     Veja como o Chat4i te ajuda a desembaralhar as letras!
 
-![](img/inflacao_ipc_ipca.png)
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/feature-store/search/img/inflacao_ipc_ipca.png)
 
 
 **2) Explore indicadores que se conectam com seu negócio**
@@ -36,7 +36,7 @@ Como o Chat4i é um funcionalidade nova, ainda em uma das suas primeiras versõe
 
     Veja como o Chat4i te ajuda descobrir indicadores relevantes!
 
-![](img/hidratante_chuva.png)
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/feature-store/search/img/hidratante_chuva.png)
 
 
 **3) Pesquise de uma forma mais dinâmica**
@@ -45,7 +45,7 @@ Como o Chat4i é um funcionalidade nova, ainda em uma das suas primeiras versõe
 
     Veja como o Chat4i te ajuda a descobrir quais dados nichados estão disponíveis!
 
-![](img/exportacao_soja.png)
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/feature-store/search/img/exportacao_soja.png)
 
 
 **4) Tire dúvidas sobre transformações e tratamentos de indicadores**
@@ -54,7 +54,8 @@ Como o Chat4i é um funcionalidade nova, ainda em uma das suas primeiras versõe
 
     Veja como o Chat4i te ajuda a entender termos técnicos e jargões!
 
-![](img/chat4i_sazonal.png)
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/feature-store/search/img/chat4i_sazonal.png)
+
 
 <style>
 blue4i {
