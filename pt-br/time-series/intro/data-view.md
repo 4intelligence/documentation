@@ -14,11 +14,11 @@ Corresponde à série temporal do usuário após ter sido ajustada sazonalmente,
 
 **MoM**
 
-Abreviação de Month over Month (mês a mês), corresponde ao aumento ou diminuição percentual do valor em comparação com a mesma série temporal no mesmo dia do último mês. Por exemplo, em 1º de fevereiro de 2003 tivemos 80, e em 1º de janeiro de 2003 tivemos 88. Isso significa um aumento percentual de (88/80 - 1) = 10,0%. 
+Abreviação de Month over Month (mês a mês), corresponde ao aumento ou diminuição percentual do valor em comparação com a mesma série temporal no mesmo dia do último mês. Por exemplo, em 1º de fevereiro de 2003 tivemos 88, e em 1º de janeiro de 2003 tivemos 80. Isso significa um aumento percentual de (88/80 - 1) = 10,0%. 
 
 **YoY**
 
-Abreviação de Year over Year (ano a ano), corresponde ao aumento ou diminuição percentual do valor em comparação com a mesma série temporal no mesmo dia do mesmo mês do ano anterior. Por exemplo, se em 1º de janeiro de 2004 tivemos 76,8, e em 1º de janeiro de 2003 tivemos 74. Isso significa um aumento percentual de (76,8/74,0 - 1) = 3,78%. 
+Abreviação de Year over Year (ano a ano), corresponde ao aumento ou diminuição percentual do valor em comparação com a mesma série temporal no mesmo dia do mesmo mês do ano anterior. Por exemplo, se em 1º de janeiro de 2004 tivemos 76,8, e em 1º de janeiro de 2003 tivemos 74, isso significa um aumento percentual de (76,8/74,0 - 1) = 3,78%. 
 
 **Acumulado nos últimos 12 meses (acum12m)**
 
@@ -26,7 +26,7 @@ Corresponde ao valor médio da série temporal durante o último ano em compara�
 
 **Diferença (diff)**
 
-Corresponde ao aumento ou diminuição absoluto no valor da série temporal após cada período. Se a série temporal for diária, então a diferença absoluta diária da série temporal será calculada. Por exemplo, se em 1º de janeiro de 2004 tivemos 76,8, e em 1º de janeiro de 2003 tivemos 74. Isso significa um aumento absoluto de (76,8 - 74,0) = 2,8. 
+Corresponde ao aumento ou diminuição absoluto no valor da série temporal após cada período. Se a série temporal for diária, então a diferença absoluta diária da série temporal será calculada. Por exemplo, se em 1º de janeiro de 2004 tivemos 76,8, e em 1º de janeiro de 2003 tivemos 74, isso significa um aumento absoluto de (76,8 - 74,0) = 2,8. 
 
 ## Correlação 
 

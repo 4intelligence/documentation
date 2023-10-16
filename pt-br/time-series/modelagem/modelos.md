@@ -10,7 +10,7 @@ ARIMA é um acrônimo para modelo de Média Móvel Integrada Autoregressiva. Ess
 
 onde p é a ordem da parte autoregressiva (AR), q é a ordem da parte de média móvel (MA), d é a ordem de integração da série, ou seja, o número de diferenças necessárias para tornar a série temporal estacionária, e e são os parâmetros do modelo. O intercepto, representado por c na equação, também é chamado de "drift" (desvio) neste modelo. A parte de média móvel (MA) representa a autocorrelação nos resíduos, que, se não for controlada, pode enviesar a estimativa dos parâmetros. O ARIMA também pode incluir variáveis exógenas para aumentar o poder de previsão. Quando isso acontece, o ARIMA é conhecido como ARIMAX. 
 
-Para realizar a estimativa e a previsão, o FaaS aplica um modelo de regressão com erros ARMA que estima as duas equações:  
+Para realizar a estimativa e a previsão, o motor de modelagem aplica um modelo de regressão com erros ARMA que estima as duas equações:  
 
 ![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/modelagem/img/form_arima2.png)
 

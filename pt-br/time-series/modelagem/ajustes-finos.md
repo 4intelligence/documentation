@@ -20,7 +20,7 @@ O Horizonte de Previsão, ou *n_steps*, é o tamanho do conjunto de teste na val
 
 Log é a abreviação para o logaritmo natural. A transformação logarítmica é uma transformação de dados na qual o valor original é substituído por seu logaritmo natural. Para aplicar a transformação logarítmica, a variável deve ter apenas valores estritamente positivos, ou seja, nem zeros nem números negativos. 
 
-É frequentemente usado em modelagem quantitativa devido às suas propriedades matemáticas convenientes. Quando aplicado, o logaritmo natural reduz a escala da variável sem alterar as relações entre as observações dentro e entre as séries. Uma vantagem da transformação logarítmica é a tendência de reduzir o impacto de valores discrepantes (outliers) e diminuir a variância da série. 
+Logo é frequentemente usado em modelagem quantitativa devido às suas propriedades matemáticas convenientes. Quando aplicado, o logaritmo natural reduz a escala da variável sem alterar as relações entre as observações dentro e entre as séries. Uma vantagem da transformação logarítmica é a tendência de reduzir o impacto de valores discrepantes (outliers) e diminuir a variância da série. 
 
 Para modelos lineares, como o ARIMA, a transformação logarítmica implica que interpretamos os coeficientes estimados como elasticidades, quando tanto as variáveis dependentes quanto as independentes estão em logaritmo (também chamados de modelos log-log), ou como semi-elasticidade, quando apenas a variável dependente está em logaritmo (também chamados de modelo log-linear). 
 

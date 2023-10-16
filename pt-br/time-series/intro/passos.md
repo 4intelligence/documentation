@@ -1,6 +1,6 @@
 # Passo a passo da criação de um projeto
 
-Nessa seção, vamos abordar os passos da criação de um projeto de séries temporais. Ao final da leitura você será capaz de criar o seu próprio projeto. 
+Nessa seção, vamos abordar os passos da criação de um projeto de séries temporais. Ao final da leitura, você será capaz de criar o seu próprio projeto. 
 
 ### 1) Passo 1
 
@@ -22,7 +22,7 @@ Variáveis explicativas (também chamadas de variáveis preditoras, regressores 
 
 **Variável de data** 
 
-Variável indicativa de data, onde será identificado a frequência dos dados. 
+Variável indicativa de data, emque será identificada a frequência dos dados. 
 
 #### Enriquecendo o seu dataset
 
@@ -34,4 +34,4 @@ Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais s
 
 Na última etapa, defina qual o período da sua projeção você deseja otimizar. 
 
-Agora já é possível iniciar o processo de modelagem para os seus dados. Porém, em caso de necessidade, ainda é possível realizar alguns ajustes finos. Entenda quais os ajustes disponíveis no documento de [Ajustes Finos](/time-series/modelagem/ajustes-finos.md). 
+Agora, já é possível iniciar o processo de modelagem para os seus dados. Porém, em caso de necessidade, ainda é possível realizar alguns ajustes finos. Entenda quais os ajustes disponíveis no documento de [Ajustes Finos](/time-series/modelagem/ajustes-finos.md). 
