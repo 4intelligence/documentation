@@ -1,6 +1,6 @@
 # Variáveis defasadas
 
-## Definição
+### Definição
 
 Uma variável defasada (lag) é uma variável construída de tal forma que seus valores sejam os números provenientes de períodos anteriores na série temporal. 
 
@@ -8,24 +8,24 @@ Podemos defasar uma variável tanto quanto tivermos períodos de tempo para isso
 
 A tabela abaixo mostra o exemplo para as ordens de defasagem um (l1_vendas) e dois (l2_vendas). 
 
-|       Data           |      Vendas  |      l1_Vendas  |      l2_Vendas  |   |
-|----------------------|:------------:|:---------------:|:---------------:|---|
-|      Dezembro/2021   |     100      |     -           |     -           |   |
-|      Janeiro/2022    |     108      |     100         |     -           |   |
-|      Fevereiro/2022  |     110      |     108         |     100         |   |
-|      Março/2022      |     105      |     110         |     108         |   |
-|      Maio/2022       |     106      |     105         |     110         |   |
-|      Abril/2022      |     100      |     106         |     105         |   |
-|      Junho/2022      |     112      |     100         |     106         |   |
-|      Julho/2022      |     115      |     112         |     100         |   |
+|       Data           |      Vendas  |      l1_Vendas  |      l2_Vendas  |
+|----------------------|:------------:|:---------------:|:---------------:|
+|      Dezembro/2021   |     100      |     -           |     -           |
+|      Janeiro/2022    |     108      |     100         |     -           |
+|      Fevereiro/2022  |     110      |     108         |     100         |
+|      Março/2022      |     105      |     110         |     108         |
+|      Maio/2022       |     106      |     105         |     110         |
+|      Abril/2022      |     100      |     106         |     105         |
+|      Junho/2022      |     112      |     100         |     106         |
+|      Julho/2022      |     115      |     112         |     100         |
 
 Variáveis defasadas são importantes quando desejamos considerar a influência direta do passado no modelo. Por exemplo, ao decidir o nível de estoque de um produto em uma loja para o próximo mês, você considera as vendas desse produto no mês anterior. 
 
-## Aplicação
+### Aplicação
 
 É possível adicionar automaticamente variáveis defasadas (lags) das variáveis explicativas ao seu conjunto de dados de modelagem em nossa plataforma. Ao longo do pipeline, o algoritmo escolherá a ordem de atraso com maior correlação com a variável dependente e a adicionará ao conjunto de dados. Este conjunto de dados seguirá para nossas etapas regulares de seleção de recursos (se apropriado) e modelagem. 
 
-Aqui estão algumas regras que você deve ter em mente: 
+**Aqui estão algumas regras que você deve ter em mente: **
 
 - Variáveis com atraso são adicionadas ao conjunto de dados com o prefixo 'l', seguido do número de atraso e do nome da variável original. Por exemplo, ao aplicar um atraso de 2 à variável 'x1', a variável 'l2_x1' será criada. 
 
