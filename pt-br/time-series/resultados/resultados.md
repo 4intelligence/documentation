@@ -8,7 +8,7 @@ Um projeto é separado em conjuntos de páginas, como descrito nesse documento.
 
 Analise o resultado da sua projeção nas páginas:
 
-### 1) Seleção IA
+### Seleção IA
 
 Aqui você irá encontrar o resultado da sua série em um modelo selecionado pela inteligência artificial. 
 
@@ -16,17 +16,17 @@ Acesse as previsões e entenda o impacto das variáveis no comportamento da sér
 
 ![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/resultados/img/ai-selection.png)
 
-### 2) Seleção do Usuário 
+### Seleção do Usuário 
 
 Acesse também as previsões da sua série no seu modelo favorito. 
 
 ## Portfólio de Modelos
 
-### 1) Visão Geral 
+### Visão Geral 
 
 Analise o portfólio de modelos do seu projeto, compare a precisão entre os métodos testados e verifique as projeções de abordagens concorrentes. 
 
-### 1) Explorador de Modelos
+### Explorador de Modelos
 
 Explore os detalhes dos modelos disponíveis no portfólio. Navegue por cada tipo de modelo e suas diferentes especificações. 
 

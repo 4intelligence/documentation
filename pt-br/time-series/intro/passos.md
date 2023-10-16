@@ -28,7 +28,7 @@ Variável indicativa de data, emque será identificada a frequência dos dados.
 
 Para enriquecer o seu conjunto de dados e impulsionar suas projeções, você pode usar o poder dos dados da Feature Store, escolhendo séries recomendadas pelo Pick4me ou utilizando alguma série favorita. Para mais informações sobre, acesse o documento [Integrando com a Feature Store](/help-center/time-series/intro/integracao-fs.md). 
 
-Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais sobre essa configuração no documento sobre [Lags](/help-center/time-series/modelagemg/lags.md).
+Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais sobre essa configuração no documento sobre [Lags](/help-center/time-series/modelagem/lags.md).
 
 ## Etapa 3: Configurações finais
 

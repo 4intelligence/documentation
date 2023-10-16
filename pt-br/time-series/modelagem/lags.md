@@ -34,7 +34,7 @@ Variáveis defasadas são importantes quando desejamos considerar a influência 
 
 - Valores ausentes adicionados devido a variáveis defasadas não são preenchidos por nenhum método. Isso implica que se o atraso 'x' (por exemplo, 5) foi adicionado ao seu conjunto de dados, as primeiras 'x' linhas do conjunto de dados serão excluídas. 
 
-- Ao trabalhar com conjuntos de dados próximos ao limite de pontos de dados requeridos (consulte a documentação de [requisitos](/help-center/time-series/intro/requisitos.md), pode haver uma limitação para o número de defasagens das variáveis explicativas que você pode adicionar ao conjunto de dados. Você só poderá adicionar ordens de defasagem que não reduzam o número de pontos de dados abaixo do mínimo exigido. Se a defasagem selecionada for maior que o máximo permitido, aparecerá um aviso. 
+- Ao trabalhar com conjuntos de dados próximos ao limite de pontos de dados requeridos (consulte a documentação de [requisitos](/help-center/time-series/intro/requisitos.md)), pode haver uma limitação para o número de defasagens das variáveis explicativas que você pode adicionar ao conjunto de dados. Você só poderá adicionar ordens de defasagem que não reduzam o número de pontos de dados abaixo do mínimo exigido. Se a defasagem selecionada for maior que o máximo permitido, aparecerá um aviso. 
 
 - Para todos as defasagens de cada variável explicativa, é realizada uma busca de defasagem escolhendo a ordem de defasagem com maior correlação com a variável dependente. A menos que a variável defasada seja escolhida como uma Variável de Ouro, não há garantia de que ela aparecerá nos modelos, uma vez que a seleção regular de recursos/modelos (se apropriada) é realizada. 
 <!-- TODO: documentação golden variables e incluir links aqui -->
