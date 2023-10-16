@@ -72,10 +72,26 @@
             },
             {
               "name": {
-                "pt-br": "Texto e Árvores",
-                "en-us": "Texto e Árvores"
+                "pt-br": "Pesquisa por indicadores",
+                "en-us": "Pesquisa por indicadores"
               },
               "path": "busca-e-categorias.md"
+            }
+          ]
+        },
+        {
+          "name": {
+            "pt-br": "Projeções",
+            "en-us": "Projeções"
+          },
+          "path": "forecast",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Projeções",
+                "en-us": "Projeções"
+              },
+              "path": "projecoes.md"
             }
           ]
         }
