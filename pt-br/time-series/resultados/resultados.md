@@ -10,7 +10,7 @@ Analise o resultado da sua projeção nas páginas:
 
 ### 1) Seleção IA
 
-Aqui você irá encontrar o resultado da sua série em um modelo selecionado pela inteligência artificical. 
+Aqui você irá encontrar o resultado da sua série em um modelo selecionado pela inteligência artificial. 
 
 Acesse as previsões e entenda o impacto das variáveis no comportamento da série para cada ponto de dados.
 
@@ -26,8 +26,8 @@ Acesse também as previsões da sua série no seu modelo favorito.
 
 Analise o portfólio de modelos do seu projeto, compare a precisão entre os métodos testados e verifique as projeções de abordagens concorrentes. 
 
-### 1) Explorar de Modelos
+### 1) Explorador de Modelos
 
-Explore os detalhes dos modelos disponíveis no portfólio. Navegue por cada tipo de modelo e suas diferentes espefificações. 
+Explore os detalhes dos modelos disponíveis no portfólio. Navegue por cada tipo de modelo e suas diferentes especificações. 
 
-Entenda mais sobre as metodologias dos tipos de modelo no documento [Tipos de Modelos](/pt-br/time-series/modelagem/modelos.md)
+Entenda mais sobre as metodologias dos tipos de modelo no documento [Tipos de Modelos](/pt-br/time-series/modelagem/modelos.md). 

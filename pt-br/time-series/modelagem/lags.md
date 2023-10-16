@@ -1,6 +1,5 @@
 # Variáveis defasadas
-
-### Definição
+## Definição
 
 Uma variável defasada (lag) é uma variável construída de tal forma que seus valores sejam os números provenientes de períodos anteriores na série temporal. 
 
@@ -21,24 +20,24 @@ A tabela abaixo mostra o exemplo para as ordens de defasagem um (l1_vendas) e do
 
 Variáveis defasadas são importantes quando desejamos considerar a influência direta do passado no modelo. Por exemplo, ao decidir o nível de estoque de um produto em uma loja para o próximo mês, você considera as vendas desse produto no mês anterior. 
 
-### Aplicação
+## Aplicação
 
 É possível adicionar automaticamente variáveis defasadas (lags) das variáveis explicativas ao seu conjunto de dados de modelagem em nossa plataforma. Ao longo do pipeline, o algoritmo escolherá a ordem de atraso com maior correlação com a variável dependente e a adicionará ao conjunto de dados. Este conjunto de dados seguirá para nossas etapas regulares de seleção de recursos (se apropriado) e modelagem. 
 
-**Aqui estão algumas regras que você deve ter em mente: **
+**Aqui estão algumas regras que você deve ter em mente:**
 
 - Variáveis com atraso são adicionadas ao conjunto de dados com o prefixo 'l', seguido do número de atraso e do nome da variável original. Por exemplo, ao aplicar um atraso de 2 à variável 'x1', a variável 'l2_x1' será criada. 
 
-- Atualmente, não é possível adicionar versões atrasadas de variáveis categóricas ou variáveis indicadoras (consulte 'Variáveis categóricas' para entender quais variáveis se enquadram nessa categoria). 
+<!-- - Atualmente, não é possível adicionar versões defasadas de variáveis categóricas ou variáveis indicadoras (consulte 'Variáveis categóricas' para entender quais variáveis se enquadram nessa categoria).  -->
 
-- Variáveis com atraso são adicionadas ao conjunto de dados depois que todas as imputações e pré-processamentos foram aplicados, o que significa que se a variável original tiver valores ausentes, sua versão atrasada terá os mesmos valores imputados para eles. 
+- Variáveis com atraso são adicionadas ao conjunto de dados depois que todas as imputações e pré-processamentos foram aplicados, o que significa que se a variável original tiver valores ausentes, sua versão defasada terá os mesmos valores imputados para eles. 
 
-- Valores ausentes adicionados devido a variáveis com atraso não são preenchidos por nenhum método. Isso implica que se o atraso 'x' (por exemplo, 5) foi adicionado ao seu conjunto de dados, as primeiras 'x' linhas do conjunto de dados serão excluídas. 
+- Valores ausentes adicionados devido a variáveis defasadas não são preenchidos por nenhum método. Isso implica que se o atraso 'x' (por exemplo, 5) foi adicionado ao seu conjunto de dados, as primeiras 'x' linhas do conjunto de dados serão excluídas. 
 
-- Ao trabalhar com conjuntos de dados próximos ao limite de pontos de dados requeridos (consulte 'Número mínimo de pontos de dados por frequência'), pode haver uma limitação para o número de atrasos das variáveis explicativas que você pode adicionar ao conjunto de dados. Você só poderá adicionar ordens de atraso que não reduzam o número de pontos de dados abaixo do mínimo exigido. Se o atraso selecionado for maior que o máximo permitido, aparecerá um aviso. 
+- Ao trabalhar com conjuntos de dados próximos ao limite de pontos de dados requeridos (consulte a documentação de [requisitos](/help-center/time-series/intro/requisitos.md), pode haver uma limitação para o número de defasagens das variáveis explicativas que você pode adicionar ao conjunto de dados. Você só poderá adicionar ordens de defasagem que não reduzam o número de pontos de dados abaixo do mínimo exigido. Se a defasagem selecionada for maior que o máximo permitido, aparecerá um aviso. 
 
-- Para todos os atrasos de cada variável explicativa, é realizada uma busca de atraso escolhendo a ordem de atraso com maior correlação com a variável dependente. A menos que a variável atrasada seja escolhida como uma Variável de Ouro, não há garantia de que ela aparecerá nos modelos, uma vez que a seleção regular de recursos/modelos (se apropriada) é realizada. 
-
-- Se uma ou mais variáveis com atraso forem escolhidas como Variáveis de Ouro, a busca de atraso para essa variável explicativa será ignorada, e as variáveis com atraso funcionarão como qualquer Variável de Ouro (consulte 'Variáveis de Ouro - quando e por quê'). No entanto, as variáveis não serão incluídas se as variáveis com atraso não estiverem disponíveis (devido ao número mínimo de pontos de dados ou a outros detalhes de pré-processamento). 
-
-- Qualquer variável com atraso incluída no conjunto de dados pode ser usada como Exclusão. 
+- Para todos as defasagens de cada variável explicativa, é realizada uma busca de defasagem escolhendo a ordem de defasagem com maior correlação com a variável dependente. A menos que a variável defasada seja escolhida como uma Variável de Ouro, não há garantia de que ela aparecerá nos modelos, uma vez que a seleção regular de recursos/modelos (se apropriada) é realizada. 
+<!-- TODO: documentação golden variables e incluir links aqui -->
+- Se uma ou mais variáveis com defasagem forem escolhidas como Variáveis de Ouro, a busca de defasagem para essa variável explicativa será ignorada, e as variáveis com defasagem funcionarão como qualquer Variável de Ouro. No entanto, as variáveis não serão incluídas se as variáveis com defasagem não estiverem disponíveis (devido ao número mínimo de pontos de dados ou a outros detalhes de pré-processamento). 
+<!-- TODO: documentação exclusions e incluir links aqui -->
+- Qualquer variável com defasagem incluída no conjunto de dados pode ser usada como Exclusão. 

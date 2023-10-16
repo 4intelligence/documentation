@@ -6,7 +6,7 @@ Nessa seção, vamos abordar os passos da criação de um projeto de séries tem
 
 Comece nomeando o seu projeto e suba o arquivo de dados seguindo os [requisitos do dataset](/help-center/time-series/intro/requisitos.md). 
 
-### Etapa 2: Seleção de variáveis
+## Etapa 2: Seleção de variáveis
 
 Selecione qual variável você deseja projetar, defina o conjunto de variáveis explicativas e confirme qual série contém informações sobre o período das observações. 
 
@@ -30,7 +30,7 @@ Para enriquecer o seu conjunto de dados e impulsionar suas projeções, você po
 
 Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais sobre essa configuração no documento sobre [Lags](/help-center/time-series/modelagemg/lags.md).
 
-### Etapa 3: Configurações finais
+## Etapa 3: Configurações finais
 
 Na última etapa, defina qual o período da sua projeção você deseja otimizar. 
 
