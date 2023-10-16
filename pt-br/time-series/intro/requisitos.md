@@ -2,7 +2,7 @@
 
 Nessa seção, vamos abordar os requisitos do arquivo de dados para um projeto de séries temporais. 
 
-### Arquivo
+## Arquivo
 
 Certifique-se de que seu arquivo de dados atende aos seguintes requisitos:
 
@@ -12,7 +12,7 @@ Certifique-se de que seu arquivo de dados atende aos seguintes requisitos:
 
 Acesse o [arquivo de exemplo](https://storage.googleapis.com/bkt-prod-4casthub/datasets/dataset-pt.xlsx) onde se deseja projetar a variável "abcr_leves" e as demais variáveis presentes são utilizadas como explicativas. 
 
-### Informação de data
+## Informação de data
 
 Certifique-se das informações de data do seu arquivo: 
 
@@ -32,12 +32,9 @@ Trimestral  | 24
 Semestral   | 24
 Anual       | 12 
 
-### Variáveis explicativas
+## Variáveis explicativas
 
 Opcionalmente, o seu arquivo pode conter colunas extras com variáveis preditivas/explicativas. 
 
 - Garanta que essas colunas tenham apenas informações numéricas. 
 
-### Período de projeção
-
-Garanta que 
