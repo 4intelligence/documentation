@@ -2,15 +2,15 @@
 
 Nessa seção, vamos abordar os passos da criação de um projeto de séries temporais. Ao final da leitura você será capaz de criar o seu próprio projeto. 
 
-## 1) Passo 1
+### 1) Passo 1
 
-Comece nomeando o seu projeto e suba o arquivo de dados seguindo os [requisitos do dataset](/time-series/start/1_dataset_requirements.md). 
+Comece nomeando o seu projeto e suba o arquivo de dados seguindo os [requisitos do dataset](/time-series/intro/requisitos.md). 
 
-## 2) Passo 2
+### 2) Passo 2
 
 Selecione qual variável você deseja projetar, defina o conjunto de variáveis explicativas e confirme qual série contém informações sobre o período das observações. 
 
-### Definições 
+#### Definições 
 
 **Variável dependente**
 
@@ -24,15 +24,15 @@ Variáveis explicativas (também chamadas de variáveis preditoras, regressores 
 
 Variável indicativa de data, onde será identificado a frequência dos dados. 
 
-### Enriquecendo o seu dataset
+#### Enriquecendo o seu dataset
 
-Para enriquecer o seu conjunto de dados e impulsionar suas projeções, você pode usar o poder dos dados da Feature Store, escolhendo séries recomendadas pelo Pick4me ou utilizando alguma série favorita. Para mais informações sobre, acesse o documento [Integrando com a Feature Store](/pt-br/time-series/start/3_integracao_fs.md). 
+Para enriquecer o seu conjunto de dados e impulsionar suas projeções, você pode usar o poder dos dados da Feature Store, escolhendo séries recomendadas pelo Pick4me ou utilizando alguma série favorita. Para mais informações sobre, acesse o documento [Integrando com a Feature Store](/pt-br/time-series/intro/integracao-fs.md). 
 
-Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais sobre essa configuração no documento sobre [Lags](/time-series/modeling/Lags.md)
+Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais sobre essa configuração no documento sobre [Lags](/time-series/modelagemg/lags.md).
 
-## 2) Passo 3
+### 2) Passo 3
 
 Na última etapa, defina qual o período da sua projeção você deseja otimizar. 
 
-Agora já é possível iniciar o processo de modelagem para os seus dados. Porém, em caso de necessidade, ainda é possível realizar alguns ajustes finos. Entenda quais os ajustes disponíveis no documento de [Ajustes Finos](/time-series/modeling/2_fine_tunning.md).  
+Agora já é possível iniciar o processo de modelagem para os seus dados. Porém, em caso de necessidade, ainda é possível realizar alguns ajustes finos. Entenda quais os ajustes disponíveis no documento de [Ajustes Finos](/time-series/modelagem/ajustes-finos.md).  
 
