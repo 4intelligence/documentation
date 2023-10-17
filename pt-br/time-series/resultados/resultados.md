@@ -2,7 +2,7 @@
 
 Ao fim do processamento do seu projeto, ele ficará disponível na sua lista de projetos. 
 
-Um projeto é separado em conjuntos de páginas, como descrito nesse documento. 
+Um projeto é separado em conjuntos de páginas, como descrito nesse artigo. 
 
 ## Resultados da sua série 
 
@@ -30,4 +30,4 @@ Analise o portfólio de modelos do seu projeto, compare a precisão entre os mé
 
 Explore os detalhes dos modelos disponíveis no portfólio. Navegue por cada tipo de modelo e suas diferentes especificações. 
 
-Entenda mais sobre as metodologias dos tipos de modelo no documento [Tipos de Modelos](/pt-br/time-series/modelagem/modelos.md). 
+Entenda mais sobre as metodologias dos tipos de modelo no artigo [Tipos de Modelos](/help-center/time-series/modelagem/modelos.md). 

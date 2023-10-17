@@ -37,4 +37,3 @@ Anual       | 12
 Opcionalmente, o seu arquivo pode conter colunas extras com variáveis preditivas/explicativas. 
 
 - Garanta que essas colunas tenham apenas informações numéricas. 
-

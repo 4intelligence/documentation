@@ -4,7 +4,7 @@ Nessa seção, vamos abordar os passos da criação de um projeto de séries tem
 
 ## Etapa 1: Início do projeto
 
-Comece nomeando o seu projeto e suba o arquivo de dados seguindo os [requisitos do dataset](/help-center/time-series/intro/requisitos.md). 
+Comece nomeando o seu projeto e suba o arquivo de dados seguindo os [requisitos](/help-center/time-series/intro/requisitos.md). 
 
 ## Etapa 2: Seleção de variáveis
 
@@ -26,12 +26,12 @@ Variável indicativa de data, emque será identificada a frequência dos dados.
 
 ### Enriquecendo o seu dataset
 
-Para enriquecer o seu conjunto de dados e impulsionar suas projeções, você pode usar o poder dos dados da Feature Store, escolhendo séries recomendadas pelo Pick4me ou utilizando alguma série favorita. Para mais informações sobre, acesse o documento [Integrando com a Feature Store](/help-center/time-series/intro/integracao-fs.md). 
+Para enriquecer o seu conjunto de dados e impulsionar suas projeções, você pode usar o poder dos dados da Feature Store, escolhendo séries recomendadas pelo Pick4me ou utilizando alguma série favorita. Para mais informações sobre, acesse o artigo [Integração com a Feature Store](/help-center/time-series/intro/integracao-fs.md). 
 
-Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais sobre essa configuração no documento sobre [Lags](/help-center/time-series/modelagem/lags.md).
+Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais sobre essa configuração no artigo sobre [Lags](/help-center/time-series/modelagem/lags.md).
 
 ## Etapa 3: Configurações finais
 
 Na última etapa, defina qual o período da sua projeção você deseja otimizar. 
 
-Agora, já é possível iniciar o processo de modelagem para os seus dados. Porém, em caso de necessidade, ainda é possível realizar alguns ajustes finos. Entenda quais os ajustes disponíveis no documento de [Ajustes Finos](/help-center/time-series/modelagem/ajustes-finos.md). 
+Agora, já é possível iniciar o processo de modelagem para os seus dados. Porém, em caso de necessidade, ainda é possível realizar alguns ajustes finos. Entenda quais os ajustes disponíveis no artigo de [Ajustes Finos](/help-center/time-series/modelagem/ajustes-finos.md). 
