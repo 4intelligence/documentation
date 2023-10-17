@@ -30,15 +30,19 @@ Corresponde ao aumento ou diminuição absoluto no valor da série temporal apó
 
 ## Correlação 
 
-O coeficiente de correlação (ρ) mede a relação ou associação que existe entre duas variáveis. Usamos o coeficiente de correlação de Pearson, que mede a relação linear entre as variáveis de interesse, resultando em um valor entre -1 e 1. A equação para calcular o coeficiente de correlação de Pearson é apresentada abaixo: 
+O coeficiente de correlação mede a relação ou associação que existe entre duas variáveis. Usamos o coeficiente de correlação de Pearson, que mede a relação linear entre as variáveis de interesse, resultando em um valor entre -1 e 1. 
 
-![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/intro/img/dataview.1.png)
+<!-- A equação para calcular o coeficiente de correlação de Pearson é apresentada abaixo: 
 
-Se um valor de (ρ) for maior que 0, isso indica que existe uma correlação linear positiva ou relação entre as duas variáveis de interesse, ou seja, se a variável X aumenta, a variável Y também aumentará. Quando (ρ) assume um valor menor que 0, temos a interpretação oposta, ou seja, há uma correlação ou relação linear negativa entre as variáveis de interesse; se X aumenta, Y diminuirá. Quando o valor de (ρ) é igual a 0, isso indica que não há relação linear entre as variáveis. 
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/intro/img/dataview.1.png) -->
 
-Uma maneira prática de visualizar o coeficiente de correlação é por meio da matriz de correlação, na qual cada coluna e linha da matriz representa uma variável, e a entrada (i,j) da matriz corresponde ao valor do coeficiente de correlação entre as variáveis (i,j). 
+Se o coeficiente de uma variável for maior que 0, isso indica que existe uma correlação linear positiva ou relação entre as duas variáveis de interesse, ou seja, se a variável X aumenta, a variável Y também aumentará. Quando o coeficiente assume um valor menor que 0, temos a interpretação oposta, ou seja, há uma correlação ou relação linear negativa entre as variáveis de interesse; se X aumenta, Y diminuirá. Quando o coeficiente é igual a 0, isso indica que não há relação linear entre as variáveis. 
 
-## Potenciais valores atípicos: 
+Uma maneira prática de visualizar o coeficiente de correlação é por meio da matriz de correlação, na qual cada coluna e linha da matriz representa uma variável, e os valores do coeficiente representam a correlação entre as variáveis. 
+
+## Potenciais valores atípicos 
+
+<!-- TODO: explicar valores atípicos e pq precisamos encontra-los  -->
 
 **Método ARIMA**
 

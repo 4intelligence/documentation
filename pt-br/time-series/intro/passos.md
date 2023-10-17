@@ -22,16 +22,18 @@ Variáveis explicativas (também chamadas de variáveis preditoras, regressores 
 
 **Variável de data** 
 
-Variável indicativa de data, emque será identificada a frequência dos dados. 
+Variável indicativa de data, em que será identificada a frequência dos dados. 
 
 ### Enriquecendo o seu dataset
 
-Para enriquecer o seu conjunto de dados e impulsionar suas projeções, você pode usar o poder dos dados da Feature Store, escolhendo séries recomendadas pelo Pick4me ou utilizando alguma série favorita. Para mais informações sobre, acesse o artigo [Integração com a Feature Store](/help-center/time-series/intro/integracao-fs.md). 
+Para enriquecer o seu conjunto de dados e impulsionar suas projeções, você pode usar o poder dos dados da Feature Store, escolhendo séries recomendadas pelo Pick4me ou utilizando alguma série favorita. Para mais informações sobre esses tópicos, acesse o artigo [Integração com a Feature Store](/help-center/time-series/intro/integracao-fs.md). 
 
 Há também a opção de adicionar defasagem nas suas variáveis. Entenda mais sobre essa configuração no artigo sobre [Lags](/help-center/time-series/modelagem/lags.md).
 
 ## Etapa 3: Configurações finais
 
 Na última etapa, defina qual o período da sua projeção você deseja otimizar. 
+
+<!-- TODO: explicar n_steps -->
 
 Agora, já é possível iniciar o processo de modelagem para os seus dados. Porém, em caso de necessidade, ainda é possível realizar alguns ajustes finos. Entenda quais os ajustes disponíveis no artigo de [Ajustes Finos](/help-center/time-series/modelagem/ajustes-finos.md). 
