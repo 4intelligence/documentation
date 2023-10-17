@@ -12,7 +12,7 @@ Cada uma dessas quebras regionais, assim como o dado nacional, caracterizam sér
 
 ## Quais são as Regiões disponíveis na Feature Store?
 
-Indicadores sobre economia e clima brasileiros compõem a maior parte dos dados disponibilizados pela Feature Store. Para esses indicadores, há grande variedade de quebras regionais, como grande regiões, estados, região metropolitana e até municípios. A disponibilidade de regiões para um indicador depende do contexto de geração dos dados.
+Indicadores sobre economia e clima brasileiros compõem a maior parte dos dados disponibilizados pela Feature Store. Para esses indicadores, há grande variedade de quebras regionais, como grandes regiões, estados, região metropolitana e até municípios. A disponibilidade de regiões para um indicador depende do contexto de geração dos dados.
 
 Há também indicadores de economia internacional, com foco em países da América Latina, como Argentina, Chile, Colombia, Equador, Peru e México, e grandes economias, como Estados Unidos, China e União Europeia. Nesses casos, a Feature Store dispõe majoritamente de indicadores no nível nacional.
 
@@ -24,4 +24,4 @@ blue4i {
 }
 </style>
 
-<blue4i>**No próximo artigo, você entenderá como organiza os dados de acordo com a sua periodicidade e como transformar a periodicidade dos dados.**</blue4i>
+<blue4i>**No [próximo artigo](/help-center/feature-store/indicators/frequencia.md), você entenderá como a Feature Store organiza os dados de acordo com a sua periodicidade e como transformar a periodicidade dos dados.**</blue4i>

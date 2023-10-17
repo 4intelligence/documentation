@@ -30,4 +30,4 @@ blue4i {
 }
 </style>
 
-<blue4i>**Agora que você entende sobre indicadores, regiões e frequência, você está pronto para mergulhar em nossos tratamentos de dados. Confira no próximo artigo!**</blue4i>
+<blue4i>**Agora que você entende sobre indicadores, regiões e frequência, você está pronto para mergulhar em nossos tratamentos de dados. Confira no [próximo artigo](/help-center/feature-store/indicators/transformacao-primaria.md)!**</blue4i>

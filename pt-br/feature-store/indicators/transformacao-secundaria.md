@@ -4,7 +4,7 @@ Nessa seção, vamos abordar o que são transformações secundárias, quais cá
 
 ## O que são Transformações Secundárias?
 
-Após entender se é necessário tratar os dados brutos para prosseguir com sua análise, ou seja, após selecionar uma transformação primária, seleciona-se a transformação secundária. Caso tenha dúvidas sobre as transformações primárias, retorne ao artigo anterior.
+Após entender se é necessário tratar os dados brutos para prosseguir com sua análise, ou seja, após selecionar uma transformação primária, seleciona-se a transformação secundária. Caso tenha dúvidas sobre as transformações primárias, retorne ao [artigo anterior](/help-center/feature-store/indicators/transformacao-primaria.md).
 
 As transformações secundárias envolvem cálculos e manipulações adicionais que geram métricas mais específicas. Para entender melhor porque transformações secundárias são importantes para fazer uma análise bem sucedida, considere os exemplos abaixo:
 
@@ -14,7 +14,7 @@ As transformações secundárias envolvem cálculos e manipulações adicionais 
 
 ## Quais são as Transformações Secundárias disponíveis na Feature Store?
 
-As principais transformações secundárias são aquelas que constroem métricas para acompanhar variações ao longo do tempo, acumular valores dentro alguns períodos e fazer comparações. Porém, existem diversas transformações secundárias disponíveis na Feature Store, sendo que as transformações disponíveis para cada indicador variam de acordo com a natureza dos indicadores. Você não precisa se preocupar com curadoria dessas métricas, a 4intelligence já deixou os calculos prontos para você!
+As principais transformações secundárias são aquelas que constroem métricas para acompanhar variações ao longo do tempo, acumular valores dentro de algum período e fazer comparações. Porém, existem diversas transformações secundárias disponíveis na Feature Store, sendo que as transformações disponíveis para cada indicador variam de acordo com a natureza dos indicadores. Você não precisa se preocupar com curadoria dessas métricas, a 4intelligence já deixou os calculos prontos para você!
 
 Abaixo você encontra as transformações secundárias mais comuns:
 
@@ -24,7 +24,7 @@ Abaixo você encontra as transformações secundárias mais comuns:
 
 -   Variação percentual contra período imediatamente anterior.
 
--   Cálculos recomendados para o exemplo de análise de atividade econômica.
+-   Cálculos recomendado para o exemplo de análise de atividade econômica.
 
 **2) Valores acumulados no tempo**
 
@@ -36,7 +36,7 @@ Abaixo você encontra as transformações secundárias mais comuns:
 
 -   Valor em porcentagem do PIB.
 
--   Cálculo recomendados para o exemplo de finanças públicas.
+-   Cálculo recomendado para o exemplo de finanças públicas.
 
 <style>
 blue4i {
