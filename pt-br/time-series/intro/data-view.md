@@ -46,11 +46,11 @@ Uma maneira prática de visualizar o coeficiente de correlação é por meio da 
 
 **Método ARIMA**
 
-A detecção de valores atípicos usando ARIMA funciona analisando os resíduos de um modelo ARIMA univariado com detecção automática da ordem AR e MA. Cada resíduo que fica fora da média mais/menos 2,5 desvios padrão é considerado um valor atípico. 
+A detecção de valores atípicos usando ARIMA funciona analisando os resíduos de um modelo ARIMA univariado com detecção automática da ordem AR (auto-regressivo) e MA (média móvel). Cada resíduo que fica fora da média +/- 2,5 desvios padrão é considerado um valor atípico. 
 
 **Método SARIMA** 
 
-A detecção de valores atípicos usando SARIMA funciona analisando os resíduos de um modelo SARIMA univariado com detecção automática dos componentes sazonais, AR e MA. Cada resíduo que fica fora da média mais/menos 2,5 desvios padrão é considerado um valor atípico. 
+A detecção de valores atípicos usando SARIMA funciona analisando os resíduos de um modelo SARIMA univariado com detecção automática dos componentes sazonais, AR (auto-regressivo) e MA (média móvel). Cada resíduo que fica fora da média +/- 2,5 desvios padrão é considerado um valor atípico. 
 
 **Método Cook's** 
 

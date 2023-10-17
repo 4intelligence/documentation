@@ -2,7 +2,7 @@
 
 ## Ideia geral  
 
-A seleção de variáveis (ou Feature Seletion) tem como objetivo escolher as variáveis mais relevantes a partir do conjunto de opções disponíveis, reduzindo a dimensionalidade da matriz de regressores, o que geralmente é um problema para a convergência do modelo. 
+A seleção de variáveis (ou *Feature Selection*) tem como objetivo escolher as variáveis mais relevantes a partir do conjunto de opções disponíveis, reduzindo a dimensionalidade da matriz de regressores, o que geralmente é um problema para a convergência do modelo. 
 
 O motor de modelagem realiza uma busca exaustiva pela melhor combinação de variáveis (que cresce exponencialmente com o número de variáveis) e, ao reduzir a dimensionalidade, permite uma busca de modelo mais focada. 
 

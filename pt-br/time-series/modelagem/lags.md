@@ -22,7 +22,7 @@ Variáveis defasadas são importantes quando desejamos considerar a influência 
 
 ## Aplicação
 
-É possível adicionar automaticamente variáveis defasadas (lags) das variáveis explicativas ao seu conjunto de dados de modelagem em nossa plataforma. Ao longo do pipeline, o algoritmo escolherá a ordem de atraso com maior correlação com a variável dependente e a adicionará ao conjunto de dados. Este conjunto de dados seguirá para nossas etapas regulares de seleção de recursos (se apropriado) e modelagem. 
+É possível adicionar automaticamente variáveis defasadas (lags) das variáveis explicativas ao seu conjunto de dados de modelagem em nossa plataforma. Ao longo do processo de modelagem, o algoritmo escolherá a ordem de atraso com maior correlação com a variável dependente e a adicionará ao conjunto de dados. Este conjunto de dados seguirá para nossas etapas regulares de seleção de recursos (se apropriado) e modelagem. 
 
 **Aqui estão algumas regras que você deve ter em mente:**
 

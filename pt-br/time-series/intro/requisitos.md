@@ -36,4 +36,5 @@ Anual       | 12
 
 Opcionalmente, o seu arquivo pode conter colunas extras com variáveis preditivas/explicativas. 
 
-- Garanta que essas colunas tenham apenas informações numéricas. 
+- Garanta que essas colunas tenham apenas informações numéricas; 
+- Traga as projeções para as suas variáveis explicativas, para que o período de projeção desejado não seja perdido. 

@@ -12,13 +12,32 @@ Analise o resultado da sua projeção nas páginas:
 
 Aqui você irá encontrar o resultado da sua série em um modelo selecionado pela inteligência artificial. 
 
-Acesse as previsões e entenda o impacto das variáveis no comportamento da série para cada ponto de dados.
+<div class="question-box-blue">
+
+**O que é a Seleção IA?**
+
+Geralmente o modelo com melhor resultado dentro de um portfólio de modelos tende a não ter interpretabilidade, ou seja, alta acuracidade e nenhuma explicabilidade. 
+
+O que trazemos aqui é a projeção com o melhor resultado, ou mais acurado, e a visibilidade de quais foram os impactos mais relevantes nos seus dados e suas respectivas explicações. 
+
+</div>
+
+Acesse a projeção resultante e entenda o impacto das variáveis nos seus dados.
 
 ![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/resultados/img/ai-selection.png)
 
 ### Seleção do Usuário 
 
 Acesse também as previsões da sua série no seu modelo favorito. 
+
+<div class="question-box-blue">
+
+**Quando utilizar?**
+
+Precisa utilizar o resultado de outro modelo? Navegue pelo portfólio de modelos e envie o seu prefeiro para a seleção do usário.
+
+</div>
+
 
 ## Portfólio de Modelos
 

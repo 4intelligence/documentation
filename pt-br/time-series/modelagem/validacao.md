@@ -1,8 +1,10 @@
 # Validação
 
-Nessa seção, vamos abordar algumas validações feitas durante o pré-processamento de uma modelagem.
+Nessa seção, vamos abordar as validações que são realizadas nos dados enviados por você. Essas validaçoes ocorrem durante o pré-processamento de uma modelagem.
 
 ## Dimensão dos dados
+
+A dimensionalidade dos dados se refere às linhas e colunas do arquivo, onde as linhas são as observações no tempo e as colunas são as variáveis. 
 
 ### Linhas
 
@@ -20,6 +22,6 @@ Com o objetivo de evitar a imputação de um alto percentual de valores ausentes
 
 Nossa plataforma remove automaticamente as variáveis redundantes do conjunto de dados. Variáveis redundantes são características cujas informações já estão completamente contidas em outras variáveis. Tecnicamente, elas são chamadas de variáveis linearmente dependentes. 
 
-A dependência linear é um conceito matemático que afirma que uma variável é linearmente dependente se pudermos compor essa variável com uma ou qualquer combinação linear de outras séries temporais dentro do conjunto de dados. É importante removê-las, pois isso acelera o tempo de processamento e também é necessário para a estimativa de alguns modelos, que dependem de métodos que requerem inversão de matriz. 
+A dependência linear é um conceito matemático que afirma que uma variável é linearmente dependente se pudermos compor essa variável com uma ou qualquer combinação linear de outras séries temporais dentro do conjunto de dados. É importante removê-las, pois isso acelera o tempo de processamento de uma modelagem e também é necessário para a estimativa de alguns modelos, que dependem de métodos que requerem inversão de matriz. 
 
 Você pode verificar na plataforma as variáveis que foram excluídas do conjunto de dados por meio de uma mensagem de aviso que aparece na tela durante a criação de um projeto. 
