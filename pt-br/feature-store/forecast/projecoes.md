@@ -7,13 +7,13 @@ Nessa seção, vamos abordar como são feitas as projeções que estão disponí
 Você já deve ter notado que alguns indicadores da Feature Store têm dois tipos de valores, representados graficamente por duas cores: azul e rosa. Os valores em azul são históricos e os valores em rosa são projeções.
 
 
-**- Valores históricos:** Os valores históricos são dados realizados, ou seja, já observados. Esses dados são coletados diretamente da fonte primária através de *crawlers*. Os *crawlers* são robôs da 4intelligence que percorrem a internet automaticamente, visitando diferentes sites de fontes confiáveis para coletar dados. Eles ainda realizam tratamentos e transformações nos dados para que você tenha informações diferentes criadas a partir do dado bruto realizado.
+**Valores históricos:** Os valores históricos são dados realizados, ou seja, já observados. Esses dados são coletados diretamente da fonte primária através de *crawlers*. Os *crawlers* são robôs da 4intelligence que percorrem a internet automaticamente, visitando diferentes sites de fontes confiáveis para coletar dados. Eles ainda realizam tratamentos e transformações nos dados para que você tenha informações diferentes criadas a partir do dado bruto realizado.
 
 Caso você queira saber mais sobre esses tratamentos e transformações, volte para os artigos sobre os indicadores e seus elementos.
 
-**- Valores projetados:** Os valores projetados são previsões do comportamento futuro de cada série de tempo. Baseando-se em conhecimentos setoriais, análise de conjuntura, tendências históricas e utilizando o nosso motor de modelagem, nossos especialistas constrõem essas projeções que são disponibilizadas na Feature Store.
+**Valores projetados:** Os valores projetados são previsões do comportamento futuro de cada série de tempo. Baseando-se em conhecimentos setoriais, análise de conjuntura, tendências históricas e utilizando o nosso motor de modelagem, nossos especialistas constrõem essas projeções que são disponibilizadas na Feature Store.
 
-Portanto, ao utilizar as projeções da Feature Store em suas análises e relatórios, você está usufruindo dos ganhos de precisão proprocionados por nossos algoritmos preditivos.
+Portanto, ao utilizar as projeções da Feature Store em suas análises e relatórios, você está usufruindo dos ganhos de precisão proporcionados por nossos algoritmos preditivos.
 
 ## Como funciona o motor de modelagem?
 
@@ -29,7 +29,7 @@ Finalmente, o último passo é separar um ano dados já realizados e verificar a
 
 Todos esses passos são executados de forma automática e otimizada pelo nosso algoritmo de modelagem, até mesmo a coleta de informações complementares. Dessa forma, garantimos que, dadas as informações e técnicas estatísticas disponíveis, construímos a maneira mais precisa de fazer projeções.
 
-Para aqueles leitores que buscam informações mais técnicas, em breve, disponibilizaremos documentação técnica sobre os tipos de modelos que o nosso algoritmo é capaz de estimar, sobre a validação fora da amostra, sobre tratamentos nos dados como loglinearização e sobre seleção automática de variáveis.
+Para aqueles leitores que buscam informações mais técnicas, disponibilizamos documentação sobre os [tipos de modelos](/help-center/time-series/modelagem/modelos.md) que o nosso algoritmo é capaz de estimar, sobre [configurações dos modelos](/help-center/time-series/modelagem/ajustes-finos.md) como parâmetros da validação fora da amostra e  tratamentos nos dados, como log-linearização. Além de documentação sobre nossos modelos, também disponibilizamos informações sobre as variáveis explicativas que podem enriquecer seu conjunto de dados através da [seleção automática de variáveis](/help-center/time-series/modelagem/feature-selection.md) e inclusão de [variáveis defasadas](/help-center/time-series/modelagem/lags.md).
 
 
 ## Com que frequência as projeções são atualizadas?
