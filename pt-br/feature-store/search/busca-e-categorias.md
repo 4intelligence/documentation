@@ -2,7 +2,7 @@
 
 Nesta seção, vamos abordar como você pode pesquisar dados na Feature Store para encontrar os indicadores que você procura.
 
-Se você não está muito familiarizado com termos técnicos e siglas usadas para nomear os indicadores, sugerimos que comece sua exploração pela Feature Store com a ajuda do Chat 4i. O [artigo anterior](/help-center/feature-store/search/chat-4i.md) aborda como encontrar indicadores e acessar conhecimento técnico de forma simples e dinâmica utilizando o Chat4i.
+Se você não está muito familiarizado com termos técnicos e siglas usadas para nomear os indicadores, sugerimos que comece sua exploração pela Feature Store com a ajuda do Chat 4i. O [artigo anterior](/help-center/feature-store/search/chat-4i.md) aborda como encontrar indicadores e acessar conhecimento técnico de forma simples e dinâmica utilizando o Chat 4i.
 
 Por outro lado, se você já tem uma ideia clara do indicador que deseja incluir em suas análises baseadas em dados, há três formas de buscar por ele: (1) exploração de país e categorias, (2) pesquisa por palavras-chave e (3) pesquisa pelo código do indicador.
 

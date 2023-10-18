@@ -5,7 +5,7 @@
         "pt-br": "Feature Store"
       },
       "description": {
-        "pt-br": "Entenda a organização da nossa base de dados para uma navegação fácil entre indicadores e tratamentos disponíveis para cada série. Aprenda a fazer perguntas direcionadas para extrair insights com o nosso Chat4i."
+        "pt-br": "Entenda a organização da nossa base de dados para uma navegação fácil entre indicadores e tratamentos disponíveis para cada série. Aprenda a fazer perguntas direcionadas para extrair insights com o nosso Chat 4i."
       },
       "path": "feature-store",
       "icon": "database",
