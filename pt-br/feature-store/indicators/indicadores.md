@@ -4,7 +4,7 @@ Nessa seção, vamos abordar indicadores, séries e seus componentes. Ao final d
 
 ## O que são os indicadores?
 
-Cada dado da Feature Store é chamado de indicador. O [Produto Interno Bruto (PIB) com metodologia 4intelligence](https://4casthub.ai/feature-store/indicators/BRGDP0081), por exemplo, é um dos principais indicadores para acompanhar a atividade econômica. Existem diversas informações que podem ser extraídas desse indicador. Podemos acompanhar o crescimento real da economia brasileira ao longo dos anos, comparar o tamanho das economias de estados diferentes ou identificar tendências utilizando a informação sem interferência de padrões sazonais.
+Cada dado da Feature Store é chamado de indicador. O <a href="https://app.4intelligence.ai/feature-store/indicators/BRGDP0081" target="_blank" rel="noreferrer">Produto Interno Bruto (PIB) com metodologia 4intelligence</a>, por exemplo, é um dos principais indicadores para acompanhar a atividade econômica. Existem diversas informações que podem ser extraídas desse indicador. Podemos acompanhar o crescimento real da economia brasileira ao longo dos anos, comparar o tamanho das economias de estados diferentes ou identificar tendências utilizando a informação sem interferência de padrões sazonais.
 
 ## O que são as séries?
 
@@ -14,11 +14,11 @@ Os gráficos da plataforma que ilustram a evolução dos dados no tempo e as inf
 
 A Feature Store está organizada de modo que as séries são uma combinação de cinco componentes: indicador, região, frequência, transformação primária e transformação secundária. Voltando ao exemplo anterior, para acompanhar o crescimento real da economia brasileira ao longo dos anos, combinamos os seguintes componentes.
 
--   **Indicador**: BRA - PIB - 4intelligence
--   **Região**: Brasil
--   **Frequência**: Mensal
--   **Transformação Primária**: Real
--   **Transformação Secundária**: Variação contra igual período do ano anterior
+- **Indicador**: BRA - PIB - 4intelligence
+- **Região**: Brasil
+- **Frequência**: Mensal
+- **Transformação Primária**: Real
+- **Transformação Secundária**: Variação contra igual período do ano anterior
 
 ![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/feature-store/indicators/img/serie_pib.png)
 
