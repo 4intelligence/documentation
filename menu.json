@@ -2,49 +2,181 @@
   "menu": [
     {
       "name": {
-        "pt-br": "Getting Started",
-        "en-us": "Getting Started"
+        "pt-br": "Feature Store"
       },
       "description": {
-        "pt-br": "Comece sua jornada",
-        "en-us": "Starting your journey"
+        "pt-br": "Entenda a organização da nossa base de dados para uma navegação fácil entre indicadores e tratamentos disponíveis para cada série. Aprenda a fazer perguntas direcionadas para extrair insights com o nosso Chat 4i."
       },
-      "path": "getting-started.md",
-      "icon": "book-bookmark"
-    },
-    {
-      "name": {
-        "pt-br": "Time Series",
-        "en-us": "Time Series"
-      },
-      "description": {
-        "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
-        "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
-      },
-      "path": "time-series",
-      "icon": "chart-line",
+      "path": "feature-store",
+      "icon": "database",
       "submenu": [
         {
           "name": {
-            "pt-br": "Tipos de Modelagem",
-            "en-us": "Modeling Types"
+            "pt-br": "Indicadores"
           },
-          "description": {
-            "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
-            "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
-          },
-          "path": "modeling.md"
+          "path": "indicators",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Indicadores"
+              },
+              "path": "indicadores.md"
+            },
+            {
+              "name": {
+                "pt-br": "Região"
+              },
+              "path": "regiao.md"
+            },
+            {
+              "name": {
+                "pt-br": "Frequência"
+              },
+              "path": "frequencia.md"
+            },
+            {
+              "name": {
+                "pt-br": "Transformação Primária"
+              },
+              "path": "transformacao-primaria.md"
+            },
+            {
+              "name": {
+                "pt-br": "Transformação Secundária"
+              },
+              "path": "transformacao-secundaria.md"
+            }
+          ]
         },
         {
           "name": {
-            "pt-br": "Pré Modelagem",
-            "en-us": "Pre-Modeling"
+            "pt-br": "Pesquisa"
           },
-          "description": {
-            "pt-br": "Projete a evolução de suas vendas, construa diferentes cenários macroeconômicos ou modele qualquer série para a qual o movimento ao longo do tempo seja relevante.",
-            "en-us": "Forecast the evolution of your sales, build different macroeconomic scenarios, or model any series for which dynamics over time are relevant."
+          "path": "search",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Chat 4i"
+              },
+              "path": "chat-4i.md"
+            },
+            {
+              "name": {
+                "pt-br": "Pesquisa por indicadores"
+              },
+              "path": "busca-e-categorias.md"
+            }
+          ]
+        },
+        {
+          "name": {
+            "pt-br": "Projeções"
           },
-          "path": "pre-modeling.md"
+          "path": "forecast",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Projeções"
+              },
+              "path": "projecoes.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "pt-br": "Time Series"
+      },
+      "description": {
+        "pt-br": "Aprenda a criar previsões em 3 passos para o futuro usando nosso motor de modelagem e a interpretar e explicar o resultado dos modelos construídos. Encontre aqui também apoio técnico para tirar dúvidas específicas sobre nossos métodos."
+      },
+      "path": "time-series",
+      "icon": "cube",
+      "submenu": [
+        {
+          "name": {
+            "pt-br": "Introdução"
+          },
+          "path": "intro",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Requisitos do Arquivo de Dados"
+              },
+              "path": "requisitos.md"
+            },
+            {
+              "name": {
+                "pt-br": "Passo a Passo"
+              },
+              "path": "passos.md"
+            },
+            {
+              "name": {
+                "pt-br": "Integração Feature Store"
+              },
+              "path": "integracao-fs.md"
+            },
+            {
+              "name": {
+                "pt-br": "Visualizar Dados"
+              },
+              "path": "data-view.md"
+            }
+          ]
+        },
+        {
+          "name": {
+            "pt-br": "Modelagem"
+          },
+          "path": "modelagem",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Tipos de Modelos"
+              },
+              "path": "modelos.md"
+            },
+            {
+              "name": {
+                "pt-br": "Ajustes Finos"
+              },
+              "path": "ajustes-finos.md"
+            },
+            {
+              "name": {
+                "pt-br": "Validação"
+              },
+              "path": "validacao.md"
+            },
+            {
+              "name": {
+                "pt-br": "Seleção de Variáveis"
+              },
+              "path": "feature-selection.md"
+            },
+            {
+              "name": {
+                "pt-br": "Variáveis Defasadas"
+              },
+              "path": "lags.md"
+            }
+          ]
+        },
+        {
+          "name": {
+            "pt-br": "Resultados do seu projeto"
+          },
+          "path": "resultados",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Páginas"
+              },
+              "path": "resultados.md"
+            }
+          ]
         }
       ]
     }
