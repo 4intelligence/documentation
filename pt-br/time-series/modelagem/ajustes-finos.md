@@ -6,7 +6,7 @@ A validação cruzada é uma técnica usada para garantir que os modelos possam 
 
 Existem vários tipos de validação cruzada, mas para séries temporais usamos a validação cruzada deslizante (rolling cross-validation), na qual as amostras são tomadas em ordem e o modelo é treinado e faz previsões N passos à frente, onde N é o horizonte de previsão fornecido. O processo de subdivisão do conjunto de dados original pode ser visto abaixo: 
 
-<img title="Janelas do cross validation" alt="Cross Validation" src="img/cross_validation.jpeg">
+![](https://raw.githubusercontent.com/4intelligence/documentation/main/pt-br/time-series/modelagem/img/cross_validation.png)
 
 Após todas as iterações serem concluídas, as medidas de precisão são resumidas pelo valor médio ou mediano dos resultados obtidos em cada iteração (o que chamamos de janela), e esses são os resultados fornecidos para cada modelo na previsão final. 
 
@@ -20,7 +20,7 @@ O Horizonte de Previsão, ou *n_steps*, é o tamanho do conjunto de teste na val
 
 Log é a abreviação para o logaritmo natural. A transformação logarítmica é uma transformação de dados na qual o valor original é substituído por seu logaritmo natural. Para aplicar a transformação logarítmica, a variável deve ter apenas valores estritamente positivos, ou seja, nem zeros nem números negativos. 
 
-É frequentemente usado em modelagem quantitativa devido às suas propriedades matemáticas convenientes. Quando aplicado, o logaritmo natural reduz a escala da variável sem alterar as relações entre as observações dentro e entre as séries. Uma vantagem da transformação logarítmica é a tendência de reduzir o impacto de valores discrepantes (outliers) e diminuir a variância da série. 
+Logo é frequentemente usado em modelagem quantitativa devido às suas propriedades matemáticas convenientes. Quando aplicado, o logaritmo natural reduz a escala da variável sem alterar as relações entre as observações dentro e entre as séries. Uma vantagem da transformação logarítmica é a tendência de reduzir o impacto de valores discrepantes (outliers) e diminuir a variância da série. 
 
 Para modelos lineares, como o ARIMA, a transformação logarítmica implica que interpretamos os coeficientes estimados como elasticidades, quando tanto as variáveis dependentes quanto as independentes estão em logaritmo (também chamados de modelos log-log), ou como semi-elasticidade, quando apenas a variável dependente está em logaritmo (também chamados de modelo log-linear). 
 

@@ -2,80 +2,83 @@
   "menu": [
     {
       "name": {
-        "pt-br": "Feature Store",
-        "en-us": "Feature Store"
+        "pt-br": "Feature Store"
       },
       "description": {
-        "pt-br": "Entenda a organização da nossa base de dados para uma navegação fácil entre indicadores e tratamentos disponíveis para cada série. Aprenda a fazer perguntas direcionadas para extrair insights com o nosso Chat4i.",
-        "en-us": "Understand the organization of our database for easy navigation among indicators and treatments available for each series. Learn how to ask targeted questions to extract insights with our Chat4i."
+        "pt-br": "Entenda a organização da nossa base de dados para uma navegação fácil entre indicadores e tratamentos disponíveis para cada série. Aprenda a fazer perguntas direcionadas para extrair insights com o nosso Chat 4i."
       },
       "path": "feature-store",
       "icon": "database",
       "submenu": [
         {
           "name": {
-            "pt-br": "Indicadores",
-            "en-us": "Indicadores"
+            "pt-br": "Indicadores"
           },
           "path": "indicators",
           "submenu": [
             {
               "name": {
-                "pt-br": "Indicadores",
-                "en-us": "Indicadores"
+                "pt-br": "Indicadores"
               },
-              "path": "1_indicadores.md"
+              "path": "indicadores.md"
             },
             {
               "name": {
-                "pt-br": "Região",
-                "en-us": "Região"
+                "pt-br": "Região"
               },
-              "path": "2_region.md"
+              "path": "regiao.md"
             },
             {
               "name": {
-                "pt-br": "Frequência",
-                "en-us": "Frequência"
+                "pt-br": "Frequência"
               },
-              "path": "3_frequency.md"
+              "path": "frequencia.md"
             },
             {
               "name": {
-                "pt-br": "Transformação Primária",
-                "en-us": "Transformação Primária"
+                "pt-br": "Transformação Primária"
               },
-              "path": "4_primary_transformation.md"
+              "path": "transformacao-primaria.md"
             },
             {
               "name": {
-                "pt-br": "Transformação Secundária",
-                "en-us": "Transformação Secundária"
+                "pt-br": "Transformação Secundária"
               },
-              "path": "5_secondary_transformation.md"
+              "path": "transformacao-secundaria.md"
             }
           ]
         },
         {
           "name": {
-            "pt-br": "Pesquisa",
-            "en-us": "Pesquisa"
+            "pt-br": "Pesquisa"
           },
           "path": "search",
           "submenu": [
             {
               "name": {
-                "pt-br": "Chat 4i",
-                "en-us": "Chat 4i"
+                "pt-br": "Chat 4i"
               },
-              "path": "1_chat_4i.md"
+              "path": "chat-4i.md"
             },
             {
               "name": {
-                "pt-br": "Texto e Árvores",
-                "en-us": "Texto e Árvores"
+                "pt-br": "Pesquisa por indicadores"
               },
-              "path": "2_texto_e_arvores.md"
+              "path": "busca-e-categorias.md"
+            }
+          ]
+        },
+        {
+          "name": {
+            "pt-br": "Projeções"
+          },
+          "path": "forecast",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Projeções"
+              },
+              "path": "projecoes.md"
             }
           ]
         }
@@ -83,117 +86,95 @@
     },
     {
       "name": {
-        "pt-br": "Time Series",
-        "en-us": "Time Series"
+        "pt-br": "Time Series"
       },
       "description": {
-        "pt-br": "Aprenda a criar previsões em 3 passos para o futuro usando nosso motor de modelagem e a interpretar e explicar o resultado dos modelos construídos. Encontre aqui também apoio técnico para tirar dúvidas específicas sobre nossos métodos.",
-        "en-us": "Learn to create forecasts in 3 steps for the future using our modeling engine. You'll also find technical support here for specific questions about our methods."
+        "pt-br": "Aprenda a criar previsões em 3 passos para o futuro usando nosso motor de modelagem e a interpretar e explicar o resultado dos modelos construídos. Encontre aqui também apoio técnico para tirar dúvidas específicas sobre nossos métodos."
       },
       "path": "time-series",
       "icon": "cube",
       "submenu": [
         {
           "name": {
-            "pt-br": "Introdução",
-            "en-us": "Introdução"
+            "pt-br": "Introdução"
           },
-          "path": "start",
+          "path": "intro",
           "submenu": [
             {
               "name": {
-                "pt-br": "Requisitos do Arquivo de Dados",
-                "en-us": "Requisitos do Arquivo de Dados"
+                "pt-br": "Requisitos do Arquivo de Dados"
               },
-              "path": "1_dataset_requirements.md"
+              "path": "requisitos.md"
             },
             {
               "name": {
-                "pt-br": "Passo a Passo",
-                "en-us": "Passo a Passo"
+                "pt-br": "Passo a Passo"
               },
-              "path": "2_step_by_step.md"
+              "path": "passos.md"
             },
             {
               "name": {
-                "pt-br": "Integração Feature Store",
-                "en-us": "Integração Feature Store"
+                "pt-br": "Integração Feature Store"
               },
-              "path": "3_integracao_fs.md"
+              "path": "integracao-fs.md"
             },
             {
               "name": {
-                "pt-br": "Visualizar Dados",
-                "en-us": "Visualizar Dados"
+                "pt-br": "Visualizar Dados"
               },
-              "path": "4_data_view.md"
+              "path": "data-view.md"
             }
           ]
         },
         {
           "name": {
-            "pt-br": "Modelagem",
-            "en-us": "Modelagem"
+            "pt-br": "Modelagem"
           },
-          "path": "modeling",
+          "path": "modelagem",
           "submenu": [
             {
               "name": {
-                "pt-br": "Tipos de Modelos",
-                "en-us": "Tipos de Modelos"
+                "pt-br": "Tipos de Modelos"
               },
-              "path": "1_model_types.md"
+              "path": "modelos.md"
             },
             {
               "name": {
-                "pt-br": "Ajustes Finos",
-                "en-us": "Ajustes Finos"
+                "pt-br": "Ajustes Finos"
               },
-              "path": "2_fine_tunning.md"
+              "path": "ajustes-finos.md"
             },
             {
               "name": {
-                "pt-br": "Validação",
-                "en-us": "Validação"
+                "pt-br": "Validação"
               },
-              "path": "3_validade.md"
+              "path": "validacao.md"
             },
             {
               "name": {
-                "pt-br": "Seleção de Variáveis",
-                "en-us": "Seleção de Variáveis"
+                "pt-br": "Seleção de Variáveis"
               },
-              "path": "4_feature_selection.md"
+              "path": "feature-selection.md"
             },
             {
               "name": {
-                "pt-br": "Variáveis Defasadas",
-                "en-us": "Variáveis Defasadas"
+                "pt-br": "Variáveis Defasadas"
               },
-              "path": "5_lags.md"
+              "path": "lags.md"
             }
           ]
         },
         {
           "name": {
-            "pt-br": "Resultados",
-            "en-us": "Resultados"
+            "pt-br": "Resultados do seu projeto"
           },
-          "path": "results",
+          "path": "resultados",
           "submenu": [
             {
               "name": {
-                "pt-br": "Visão Geral",
-                "en-us": "Visão Geral"
+                "pt-br": "Páginas"
               },
-              "path": "1_overview.md"
-            },
-            {
-              "name": {
-                "pt-br": "Seleção IA",
-                "en-us": "Seleção IA"
-              },
-              "path": "2_ai_selection.md"
+              "path": "resultados.md"
             }
           ]
         }
