@@ -12,9 +12,9 @@
       "submenu": [
         {
           "name": {
-            "pt-br": "Indicadores"
+            "pt-br": "Organização dos dados"
           },
-          "path": "indicators",
+          "path": "data-organization",
           "submenu": [
             {
               "name": {
