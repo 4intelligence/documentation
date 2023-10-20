@@ -24,4 +24,4 @@ blue4i {
 }
 </style>
 
-<blue4i>**No [próximo artigo](/help-center/feature-store/indicators/frequencia.md), você entenderá como a Feature Store organiza os dados de acordo com a sua periodicidade e como transformar a periodicidade dos dados.**</blue4i>
+<blue4i>**No [próximo artigo](/help-center/feature-store/data-organization/frequencia.md), você entenderá como a Feature Store organiza os dados de acordo com a sua periodicidade e como transformar a periodicidade dos dados.**</blue4i>

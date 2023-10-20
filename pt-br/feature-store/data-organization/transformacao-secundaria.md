@@ -4,7 +4,7 @@ Nessa seção, vamos abordar o que são transformações secundárias, quais cá
 
 ## O que são Transformações Secundárias?
 
-Após entender se é necessário tratar os dados brutos para prosseguir com sua análise, ou seja, após selecionar uma transformação primária, seleciona-se a transformação secundária. Caso tenha dúvidas sobre as transformações primárias, retorne ao [artigo anterior](/help-center/feature-store/indicators/transformacao-primaria.md).
+Após entender se é necessário tratar os dados brutos para prosseguir com sua análise, ou seja, após selecionar uma transformação primária, seleciona-se a transformação secundária. Caso tenha dúvidas sobre as transformações primárias, retorne ao [artigo anterior](/help-center/feature-store/data-organization/transformacao-primaria.md).
 
 As transformações secundárias envolvem cálculos e manipulações adicionais que geram métricas mais específicas. Para entender melhor porque transformações secundárias são importantes para fazer uma análise bem sucedida, considere os exemplos abaixo:
 

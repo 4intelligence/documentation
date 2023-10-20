@@ -40,4 +40,4 @@ blue4i {
 }
 </style>
 
-<blue4i>**Antes de concluir sua análise, atente-se também às transformações secundárias. No [próximo artigo](/help-center/feature-store/indicators/transformacao-secundaria.md), você encontrará o detalhamento desses tratamentos adicionais!**</blue4i>
+<blue4i>**Antes de concluir sua análise, atente-se também às transformações secundárias. No [próximo artigo](/help-center/feature-store/data-organization/transformacao-secundaria.md), você encontrará o detalhamento desses tratamentos adicionais!**</blue4i>
