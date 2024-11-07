@@ -14,21 +14,21 @@ Ideia principal: Ponderar as previsões usando o inverso do erro médio quadrado
 
 Ideia principal: Classificar o modelo com a menor previsão de erro quadrado médio como 1, o segundo menor como 2, etc. Em seguida, pegar a classificação inversa e verificar seu peso dividindo a classificação inversa pela soma das classificações inversas.
 
-- **Combinação de Previsão Mediana - comb_MED**
+<!-- - **Combinação de Previsão Mediana - comb_MED**
 
-Ideia principal: Usar a mediana das previsões em cada ponto no tempo.
+Ideia principal: Usar a mediana das previsões em cada ponto no tempo. -->
 
 - **Combinação de Previsão Média Simples - comb_SA**
 
 Ideia principal: Usar a média das previsões em cada ponto no tempo.
 
-- **Combinação de Previsão Média Aparada - comb_TA**
+<!-- - **Combinação de Previsão Média Aparada - comb_TA**
 
-Ideia principal: Aparar um número desejado de modelos com base na classificação (MAE, MAPE ou RMSE) e tirar a média da previsão. Atualmente, é usado o RMSE.
+Ideia principal: Aparar um número desejado de modelos com base na classificação (MAE, MAPE ou RMSE) e tirar a média da previsão. Atualmente, é usado o RMSE. -->
 
-- **Combinação de Previsão Média Winsorizada - comb_WA**
+<!-- - **Combinação de Previsão Média Winsorizada - comb_WA**
 
-Ideia principal: Usar a média winsorizada das previsões em cada ponto no tempo. A ideia da média winsorizada é substituir os valores mais altos e mais baixos pelas observações mais próximas.
+Ideia principal: Usar a média winsorizada das previsões em cada ponto no tempo. A ideia da média winsorizada é substituir os valores mais altos e mais baixos pelas observações mais próximas. -->
 
 - **Combinação de Previsão Newbold/Granger (1974) - comb_NG**
 
