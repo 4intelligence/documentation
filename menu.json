@@ -166,6 +166,12 @@
           "submenu": [
             {
               "name": {
+                "pt-br": "Introdução"
+              },
+              "path": "intro.md"
+            },
+            {
+              "name": {
                 "pt-br": "ARIMA"
               },
               "path": "arima.md"
