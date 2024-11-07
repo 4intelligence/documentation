@@ -47,5 +47,3 @@ Analise o portfólio de modelos do seu projeto, compare a precisão entre os mé
 ### Explorador de Modelos
 
 Explore os detalhes dos modelos disponíveis no portfólio. Navegue por cada tipo de modelo e suas diferentes especificações.
-
-Entenda mais sobre as metodologias dos tipos de modelo no artigo [Tipos de Modelos](/help-center/time-series/modelagem/modelos.md).
