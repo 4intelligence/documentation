@@ -10,17 +10,17 @@ Abaixo descrevemos as principais características de cada um dos passos de model
 
 ## Primeiro Passo: tratar e modelar tendência
 
-No primeiro passo de nossa abordagem, começamos identificando as séries que não apresentam estacionariedade. Este processo é realizado para cada uma das variáveis do conjunto de dados.  Quando identificamos variáveis que são não estacionárias, a tendência é extraída utilizando o modelo STL, que será reintegrada os resultados finais após o segundo passo do processo de modelagem.
+No primeiro passo de nossa abordagem, começamos identificando as séries que não apresentam estacionariedade. Este processo é realizado para cada uma das variáveis do conjunto de dados.  Quando identificamos variáveis que são não estacionárias, a tendência é extraída utilizando o modelo STL, que será reintegrada aos resultados finais após o segundo passo do processo de modelagem.
 
 Se a variável resposta foi submetida ao processo de extração de tendência, torna-se necessário projetar essa tendência. Esta projeção é realizada utilizando uma combinação de um modelo linear e um modelo ARIMA univariado. Foram realizados diversos testes com dados reais e sintéticos até que chegassemos na combinação de modelos proposta. 
 
 ## Segundo Passo: modelar a série usando o modelo de árvore
 
-No segundo passo de nossa abordagem de modelagem, nos voltamos para o resíduo das séries das quais a tendência foi removida no primeiro passo. Este resíduo representa a diferença entre a série original e a tendência que extraímos. Ele captura as variações e padrões nos dados que a tendência não pode explicar. Para modelar este resíduo, empregamos uma variedade de modelos de árvore, incluindo Gradient Boosting, XGBoost, LightGBM e Random Forest. Suas principais características e diferenças são destacadas abaixo. 
+No segundo passo da nossa abordagem de modelagem, nós voltamos para o resíduo das séries das quais a tendência foi removida no primeiro passo. Este resíduo representa a diferença entre a série original e a tendência que extraímos. Ele captura as variações e padrões nos dados que a tendência não pode explicar. Para modelar este resíduo, empregamos uma variedade de modelos de árvore, incluindo Gradient Boosting, XGBoost, LightGBM e Random Forest. Suas principais características e diferenças são destacadas abaixo. 
 
 ### Gradient Boosting
 
-Gradient Boosting é um algoritmo de aprendizado de máquina que utiliza a ideia de boosting, uma técnica que se baseia na ideia de criar um modelo preditivo forte a partir de vários modelos fracos. O Gradient Boosting constrói modelos de árvore de decisão sequencialmente, onde cada árvore é construída para corrigir os erros cometidos pela árvore anterior.
+Gradient Boosting é um algoritmo de aprendizado de máquina que utiliza a ideia de boosting, uma técnica que se baseia na ideia de criar um modelo preditivo forte a partir de vários modelos fracos. O Gradient Boosting constrói modelos de árvore de decisão sequencialmente, em que cada árvore é construída para corrigir os erros cometidos pela árvore anterior.
 
 ### XGBoost
 
