@@ -128,16 +128,10 @@
         },
         {
           "name": {
-            "pt-br": "Modelagem"
+            "pt-br": "Configuração da Modelagem"
           },
           "path": "modelagem",
           "submenu": [
-            {
-              "name": {
-                "pt-br": "Tipos de Modelos"
-              },
-              "path": "modelos.md"
-            },
             {
               "name": {
                 "pt-br": "Ajustes Finos"
@@ -161,6 +155,50 @@
                 "pt-br": "Variáveis Defasadas"
               },
               "path": "lags.md"
+            }
+          ]
+        },
+        {
+          "name": {
+            "pt-br": "Tipos de Modelos"
+          },
+          "path": "modelos",
+          "submenu": [
+            {
+              "name": {
+                "pt-br": "Introdução"
+              },
+              "path": "intro.md"
+            },
+            {
+              "name": {
+                "pt-br": "ARIMA"
+              },
+              "path": "arima.md"
+            },
+            {
+              "name": {
+                "pt-br": "Combinação de Modelos"
+              },
+              "path": "combinacao.md"
+            },
+            {
+              "name": {
+                "pt-br": "Regressão Regularizada"
+              },
+              "path": "regressao.md"
+            }, 
+            {
+              "name": {
+                "pt-br": "Modelos de Árvore"
+              },
+              "path": "arvore.md"
+            },
+            {
+              "name": {
+                "pt-br": "Elementar"
+              },
+              "path": "elementar.md"
             }
           ]
         },
