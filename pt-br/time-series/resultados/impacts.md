@@ -26,7 +26,7 @@ Revela, de forma precisa, os fatores que explicam por que o número atual ficou 
 **Leitura do Movimento:**  
 Foca na dinâmica da mudança. Em vez de olhar apenas o valor final, mostra **como** e **por que** o resultado se deslocou entre os períodos.
 
-ℹ️**Quando utilizar?**
+> **ℹ️ Quando utilizar?**
 
 - Use quando sua pergunta for **comparativa**, especialmente quando há interações relevantes:
 
@@ -50,7 +50,7 @@ O algoritmo atribui a cada fator a parcela exata do movimento que ele provoca no
 
 Essa abordagem revela o _efeito direto_ de cada variável segundo o próprio modelo estatístico, permitindo interpretar a sensibilidade do resultado a mudanças específicas.
 
-ℹ️**Valor Gerado**
+> **ℹ️ Valor Gerado**
 
 **Transparência Estrutural:**  
 Mostra de forma objetiva a contribuição de cada variável, refletindo exatamente a lógica interna do modelo (especialmente útil em modelos lineares ou com elasticidades conhecidas).
@@ -61,7 +61,7 @@ Permite entender o “quanto o resultado mexe” quando cada variável sobe ou d
 **Estabilidade na Interpretação:**  
 Ideal quando você quer uma decomposição direta, previsível e fácil de replicar em diferentes períodos.
 
-**Quando utilizar?**
+> **ℹ️ Quando utilizar?**
 
 Use quando sua pergunta for sobre **sensibilidade ou efeito direto**:
 
@@ -69,9 +69,9 @@ Use quando sua pergunta for sobre **sensibilidade ou efeito direto**:
 
 - “Se o preço subiu 3%, qual parte da mudança no resultado é explicada só por isso?”
 
-- “Quero ver a decomposição exata, sem simulações — apenas o impacto direto de cada variável.”
+- "Quero ver a decomposição exata, sem simulações — apenas o impacto direto de cada variável."
 
-🧩 **Glossário de Componentes**
+> 🧩 **Glossário de Componentes**
 
 _Ao analisar qualquer uma das visões (Simulada ou Analítica), você encontrará componentes que explicam a dinâmica da série temporal:_
 
