@@ -6,17 +6,19 @@ No módulo **AI Models**, nós entregamos mais do que a previsão ("o que vai ac
 
 A plataforma oferece duas lentes distintas para interpretar os resultados: **Impacto Simulado** e **Impacto Analítico**. Ambas respondem à pergunta "o que moveu meu número?", mas sob óticas diferentes.
 
----
-
-#### **1. Impacto Simulado (Visão Diagnóstica)**
+### **1. Impacto Simulado (Visão Diagnóstica)**
 
 _Aprofunde-se na dinâmica, nas interações e nas causas da variação._
 
-> **ℹ️ O que é?**
+<div class="question-box-blue">
+
+**ℹ️ O que é?**
 
 O Impacto Simulado é uma ferramenta de **diagnóstico explicativo** desenhada para entender **por que o resultado mudou de um período para outro**.
 
 Baseado na tecnologia **SHAP (SHapley Additive exPlanations)**, o algoritmo realiza milhares de simulações que constroem cenários alternativos: ele "liga" e "desliga" cada variável e combina suas diferentes configurações. Esse processo permite **isolar a contribuição individual de cada fator**, ao mesmo tempo em que captura **interações complexas** que influenciam o resultado.
+
+</div>
 
 > **ℹ️ Valor Gerado**
 
@@ -26,7 +28,9 @@ Revela, de forma precisa, os fatores que explicam por que o número atual ficou 
 **Leitura do Movimento:**  
 Foca na dinâmica da mudança. Em vez de olhar apenas o valor final, mostra **como** e **por que** o resultado se deslocou entre os períodos.
 
-> **ℹ️ Quando utilizar?**
+<div class="question-box-blue">
+
+**ℹ️ Quando utilizar?**
 
 - Use quando sua pergunta for **comparativa**, especialmente quando há interações relevantes:
 
@@ -36,19 +40,23 @@ Foca na dinâmica da mudança. Em vez de olhar apenas o valor final, mostra **co
 
 - “Quais fatores explicam uma mudança inesperada no resultado?”
 
----
+</div>
 
-#### **2. Impacto Analítico (Visão Estrutural)**
+### **2. Impacto Analítico (Visão Estrutural)**
 
 _Entenda como cada variável afeta o resultado de forma direta._
 
-> **ℹ️ O que é?**
+<div class="question-box-blue">
+
+**ℹ️ O que é?**
 
 O Impacto Analítico é uma ferramenta de leitura estrutural do modelo. Ele mostra **como a mudança das variáveis explicativas entre dois períodos influencia o resultado**, usando diretamente os **coeficientes estimados** pelo modelo.
 
 O algoritmo atribui a cada fator a parcela exata do movimento que ele provoca no resultado — sem a necessidade de simulações ou combinações alternativas.
 
 Essa abordagem revela o _efeito direto_ de cada variável segundo o próprio modelo estatístico, permitindo interpretar a sensibilidade do resultado a mudanças específicas.
+
+</div>
 
 > **ℹ️ Valor Gerado**
 
@@ -61,7 +69,9 @@ Permite entender o “quanto o resultado mexe” quando cada variável sobe ou d
 **Estabilidade na Interpretação:**  
 Ideal quando você quer uma decomposição direta, previsível e fácil de replicar em diferentes períodos.
 
-> **ℹ️ Quando utilizar?**
+<div class="question-box-blue">
+
+**ℹ️ Quando utilizar?**
 
 Use quando sua pergunta for sobre **sensibilidade ou efeito direto**:
 
@@ -70,6 +80,8 @@ Use quando sua pergunta for sobre **sensibilidade ou efeito direto**:
 - “Se o preço subiu 3%, qual parte da mudança no resultado é explicada só por isso?”
 
 - "Quero ver a decomposição exata, sem simulações — apenas o impacto direto de cada variável."
+
+</div>
 
 > 🧩 **Glossário de Componentes**
 
@@ -84,8 +96,6 @@ _Ao analisar qualquer uma das visões (Simulada ou Analítica), você encontrar�
 - **Mudança de Patamar (Level Effects):** Alterações estruturais no nível da série que perduram por mais de um período (comuns quando há pontos de outlier em modelos diferenciados).
 
 - **Variáveis Explicativas:** O impacto das variáveis externas (Preço, PIB, Clima) inseridas no modelo.
-
----
 
 > **✅ Resumo Comparativo: Qual metodologia escolher?**
 
