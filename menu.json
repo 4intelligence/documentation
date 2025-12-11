@@ -213,6 +213,12 @@
                 "pt-br": "Páginas"
               },
               "path": "resultados.md"
+            },
+            {
+              "name": {
+                "pt-br": "Interpretação de Modelos: Cálculo de Impactos"
+              },
+              "path": "impacts.md"
             }
           ]
         }
